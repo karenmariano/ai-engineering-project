@@ -1,0 +1,16 @@
+slug,title,owner,sections,approx_pages,markdown_file,html_file
+employee-handbook,Employee Handbook,People Operations,9,9,markdown/employee-handbook.md,html/employee-handbook.html
+code-of-conduct,Code of Conduct,Compliance,9,9,markdown/code-of-conduct.md,html/code-of-conduct.html
+hr-policies-and-procedures,HR Policies and Procedures Manual,People Operations,9,9,markdown/hr-policies-and-procedures.md,html/hr-policies-and-procedures.html
+it-security-policy,IT Security Policy,Security,9,9,markdown/it-security-policy.md,html/it-security-policy.html
+data-protection-policy,Data Protection and Privacy Policy,Privacy,9,9,markdown/data-protection-policy.md,html/data-protection-policy.html
+remote-work-policy,Remote Work Policy,People Operations,9,9,markdown/remote-work-policy.md,html/remote-work-policy.html
+health-and-safety-policy,Health and Safety Policy,Operations,9,9,markdown/health-and-safety-policy.md,html/health-and-safety-policy.html
+leave-and-benefits-policy,Leave and Benefits Policy,People Operations,9,9,markdown/leave-and-benefits-policy.md,html/leave-and-benefits-policy.html
+recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,People Operations,9,9,markdown/recruitment-and-onboarding-procedure.md,html/recruitment-and-onboarding-procedure.html
+performance-management-policy,Performance Management Policy,People Operations,9,9,markdown/performance-management-policy.md,html/performance-management-policy.html
+disciplinary-procedure,Disciplinary and Grievance Procedure,People Operations,9,9,markdown/disciplinary-procedure.md,html/disciplinary-procedure.html
+acceptable-use-policy,Acceptable Use Policy,Security,9,9,markdown/acceptable-use-policy.md,html/acceptable-use-policy.html
+finance-and-expense-policy,Finance and Expense Policy,Finance,9,9,markdown/finance-and-expense-policy.md,html/finance-and-expense-policy.html
+procurement-policy,Procurement Policy,Finance,9,9,markdown/procurement-policy.md,html/procurement-policy.html
+risk-management-policy,Risk Management Policy,Compliance,9,9,markdown/risk-management-policy.md,html/risk-management-policy.html

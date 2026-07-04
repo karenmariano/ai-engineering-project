@@ -1,9 +1,15 @@
 # Deployed app
 
-After you connect this repo to Render and deploy, put the public URL here for graders or your notes:
+Deployment is optional for this rubric. This repo includes `render.yaml` so it can be deployed to Render as a Blueprint after the GitHub repository is connected.
 
-**URL:** _https://policy-rag.onrender.com_ (replace with your Render service URL)
+For a local demo:
 
-**Health check:** `GET /health`
+```bash
+python scripts/ingest.py --force
+python -m src.app
+```
 
-**Optional:** add this link in your course submission PDF if required.
+- Web chat: http://127.0.0.1:5000/
+- Health check: http://127.0.0.1:5000/health
+
+If a public deployment is created, add the production URL here before final submission.

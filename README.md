@@ -95,7 +95,7 @@ The `/chat` JSON may include an optional **`notice`** (e.g. LLM error or extract
 - `src/config.py` — paths, `RAG_CORPUS_DIR`, retrieval thresholds
 - `scripts/ingest.py` — CLI for indexing
 - `software-requirements-specification.md` — SRS
-- `design-and-evaluation.md` — fill in design + metrics
+- `design-and-evaluation.md` — design choices + evaluation metrics
 - `ai-tooling.md` — AI tool usage (submission)
 
 ## Answer length (defaults increased for full policy sections)
@@ -117,3 +117,20 @@ pytest -q
 ```
 
 GitHub Actions installs dependencies, imports the app, and runs `pytest`.
+
+## Evaluation
+
+The repository includes the synthetic policy corpus and benchmark questions under `data/corpus`.
+Run the reproducible evaluation after building the index:
+
+```bash
+python scripts/ingest.py --force
+python scripts/evaluate.py
+```
+
+Latest results are committed in `evaluation/results.md`:
+
+- Groundedness: 100.0%
+- Citation accuracy: 100.0%
+- Top-1 retrieval hit rate: 87.5%
+- Latency p50/p95: 7.5 ms / 10.15 ms

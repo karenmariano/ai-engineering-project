@@ -1,0 +1,1246 @@
+chunk_id,doc_slug,doc_title,section_heading,owner,text
+employee-handbook::1-purpose-and-scope,employee-handbook,Employee Handbook,1. Purpose and Scope,People Operations,"Employee Handbook
+1. Purpose and Scope
+Employee Handbook describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+employee-handbook::2-roles-and-responsibilities,employee-handbook,Employee Handbook,2. Roles and Responsibilities,People Operations,"Employee Handbook
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+employee-handbook::3-employment-classifications,employee-handbook,Employee Handbook,3. Employment Classifications,People Operations,"Employee Handbook
+3. Employment Classifications
+The section on employment classifications defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to employment classifications should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for employment classifications, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to employment classifications must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to employment classifications should be reviewed periodically to identify recurring issues and opportunities for improvement."
+employee-handbook::4-attendance,employee-handbook,Employee Handbook,4. Attendance,People Operations,"Employee Handbook
+4. Attendance
+The section on attendance defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to attendance should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for attendance, the exception must include the reason, the duration, and any compensating controls.
+
+Employees who will be absent or late must notify their manager and team channel at least 1 hour before the start of the scheduled workday unless there is an emergency.
+
+Unplanned absences extending beyond 3 consecutive workdays may require supporting documentation."
+employee-handbook::5-standards-of-conduct,employee-handbook,Employee Handbook,5. Standards Of Conduct,People Operations,"Employee Handbook
+5. Standards Of Conduct
+The section on standards of conduct defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to standards of conduct should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for standards of conduct, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to standards of conduct must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to standards of conduct should be reviewed periodically to identify recurring issues and opportunities for improvement."
+employee-handbook::6-travel-and-expenses,employee-handbook,Employee Handbook,6. Travel And Expenses,People Operations,"Employee Handbook
+6. Travel And Expenses
+The section on travel and expenses defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to travel and expenses should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for travel and expenses, the exception must include the reason, the duration, and any compensating controls.
+
+Airfare, lodging, and conference registration above USD 1,000 in total require pre-approval from a department head before booking.
+
+Expense reports should be submitted within 15 calendar days after travel ends."
+employee-handbook::7-acknowledgment,employee-handbook,Employee Handbook,7. Acknowledgment,People Operations,"Employee Handbook
+7. Acknowledgment
+The section on acknowledgment defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to acknowledgment should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for acknowledgment, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to acknowledgment must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to acknowledgment should be reviewed periodically to identify recurring issues and opportunities for improvement."
+employee-handbook::8-exceptions-and-escalations,employee-handbook,Employee Handbook,8. Exceptions and Escalations,People Operations,"Employee Handbook
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+employee-handbook::9-document-control,employee-handbook,Employee Handbook,9. Document Control,People Operations,"Employee Handbook
+9. Document Control
+Document owner: Employee Handbook owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+code-of-conduct::1-purpose-and-scope,code-of-conduct,Code of Conduct,1. Purpose and Scope,Compliance,"Code of Conduct
+1. Purpose and Scope
+Code of Conduct describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+code-of-conduct::2-roles-and-responsibilities,code-of-conduct,Code of Conduct,2. Roles and Responsibilities,Compliance,"Code of Conduct
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+code-of-conduct::3-ethical-conduct,code-of-conduct,Code of Conduct,3. Ethical Conduct,Compliance,"Code of Conduct
+3. Ethical Conduct
+The section on ethical conduct defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to ethical conduct should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for ethical conduct, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to ethical conduct must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to ethical conduct should be reviewed periodically to identify recurring issues and opportunities for improvement."
+code-of-conduct::4-conflicts-of-interest,code-of-conduct,Code of Conduct,4. Conflicts Of Interest,Compliance,"Code of Conduct
+4. Conflicts Of Interest
+The section on conflicts of interest defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to conflicts of interest should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for conflicts of interest, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to conflicts of interest must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to conflicts of interest should be reviewed periodically to identify recurring issues and opportunities for improvement."
+code-of-conduct::5-gifts-and-hospitality,code-of-conduct,Code of Conduct,5. Gifts And Hospitality,Compliance,"Code of Conduct
+5. Gifts And Hospitality
+The section on gifts and hospitality defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to gifts and hospitality should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for gifts and hospitality, the exception must include the reason, the duration, and any compensating controls.
+
+Employees may not accept cash or cash equivalents from vendors or customers under any circumstances.
+
+Non-cash gifts with an estimated value above USD 75 must be declined or disclosed to Compliance for written guidance."
+code-of-conduct::6-reporting-concerns,code-of-conduct,Code of Conduct,6. Reporting Concerns,Compliance,"Code of Conduct
+6. Reporting Concerns
+The section on reporting concerns defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to reporting concerns should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for reporting concerns, the exception must include the reason, the duration, and any compensating controls.
+
+Concerns may be reported to a manager, People Operations, Compliance, or the anonymous ethics channel.
+
+Retaliation against a person who raises a good-faith concern is prohibited even if the concern is not substantiated."
+code-of-conduct::7-non-retaliation,code-of-conduct,Code of Conduct,7. Non-Retaliation,Compliance,"Code of Conduct
+7. Non-Retaliation
+The section on non-retaliation defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to non-retaliation should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for non-retaliation, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to non-retaliation must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to non-retaliation should be reviewed periodically to identify recurring issues and opportunities for improvement."
+code-of-conduct::8-exceptions-and-escalations,code-of-conduct,Code of Conduct,8. Exceptions and Escalations,Compliance,"Code of Conduct
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+code-of-conduct::9-document-control,code-of-conduct,Code of Conduct,9. Document Control,Compliance,"Code of Conduct
+9. Document Control
+Document owner: Code of Conduct owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+hr-policies-and-procedures::1-purpose-and-scope,hr-policies-and-procedures,HR Policies and Procedures Manual,1. Purpose and Scope,People Operations,"HR Policies and Procedures Manual
+1. Purpose and Scope
+HR Policies and Procedures Manual describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+hr-policies-and-procedures::2-roles-and-responsibilities,hr-policies-and-procedures,HR Policies and Procedures Manual,2. Roles and Responsibilities,People Operations,"HR Policies and Procedures Manual
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+hr-policies-and-procedures::3-recruitment,hr-policies-and-procedures,HR Policies and Procedures Manual,3. Recruitment,People Operations,"HR Policies and Procedures Manual
+3. Recruitment
+The section on recruitment defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to recruitment should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for recruitment, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to recruitment must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to recruitment should be reviewed periodically to identify recurring issues and opportunities for improvement."
+hr-policies-and-procedures::4-onboarding,hr-policies-and-procedures,HR Policies and Procedures Manual,4. Onboarding,People Operations,"HR Policies and Procedures Manual
+4. Onboarding
+The section on onboarding defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to onboarding should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for onboarding, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to onboarding must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to onboarding should be reviewed periodically to identify recurring issues and opportunities for improvement."
+hr-policies-and-procedures::5-records-management,hr-policies-and-procedures,HR Policies and Procedures Manual,5. Records Management,People Operations,"HR Policies and Procedures Manual
+5. Records Management
+The section on records management defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to records management should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for records management, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to records management must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to records management should be reviewed periodically to identify recurring issues and opportunities for improvement."
+hr-policies-and-procedures::6-training,hr-policies-and-procedures,HR Policies and Procedures Manual,6. Training,People Operations,"HR Policies and Procedures Manual
+6. Training
+The section on training defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to training should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for training, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to training must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to training should be reviewed periodically to identify recurring issues and opportunities for improvement."
+hr-policies-and-procedures::7-offboarding,hr-policies-and-procedures,HR Policies and Procedures Manual,7. Offboarding,People Operations,"HR Policies and Procedures Manual
+7. Offboarding
+The section on offboarding defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to offboarding should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for offboarding, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to offboarding must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to offboarding should be reviewed periodically to identify recurring issues and opportunities for improvement."
+hr-policies-and-procedures::8-exceptions-and-escalations,hr-policies-and-procedures,HR Policies and Procedures Manual,8. Exceptions and Escalations,People Operations,"HR Policies and Procedures Manual
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+hr-policies-and-procedures::9-document-control,hr-policies-and-procedures,HR Policies and Procedures Manual,9. Document Control,People Operations,"HR Policies and Procedures Manual
+9. Document Control
+Document owner: HR Policies and Procedures Manual owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+it-security-policy::1-purpose-and-scope,it-security-policy,IT Security Policy,1. Purpose and Scope,Security,"IT Security Policy
+1. Purpose and Scope
+IT Security Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+it-security-policy::2-roles-and-responsibilities,it-security-policy,IT Security Policy,2. Roles and Responsibilities,Security,"IT Security Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+it-security-policy::3-identity-and-access,it-security-policy,IT Security Policy,3. Identity And Access,Security,"IT Security Policy
+3. Identity And Access
+The section on identity and access defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to identity and access should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for identity and access, the exception must include the reason, the duration, and any compensating controls.
+
+Production system access must be provisioned through role-based groups and approved by both the manager and system owner.
+
+Shared accounts are prohibited except for approved service accounts with documented owners."
+it-security-policy::4-device-management,it-security-policy,IT Security Policy,4. Device Management,Security,"IT Security Policy
+4. Device Management
+The section on device management defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to device management should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for device management, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to device management must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to device management should be reviewed periodically to identify recurring issues and opportunities for improvement."
+it-security-policy::5-password-and-mfa,it-security-policy,IT Security Policy,5. Password And Mfa,Security,"IT Security Policy
+5. Password And Mfa
+The section on password and MFA defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to password and MFA should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for password and MFA, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to password and MFA must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to password and MFA should be reviewed periodically to identify recurring issues and opportunities for improvement."
+it-security-policy::6-logging-and-monitoring,it-security-policy,IT Security Policy,6. Logging And Monitoring,Security,"IT Security Policy
+6. Logging And Monitoring
+The section on logging and monitoring defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to logging and monitoring should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for logging and monitoring, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to logging and monitoring must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to logging and monitoring should be reviewed periodically to identify recurring issues and opportunities for improvement."
+it-security-policy::7-incident-reporting,it-security-policy,IT Security Policy,7. Incident Reporting,Security,"IT Security Policy
+7. Incident Reporting
+The section on incident reporting defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to incident reporting should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for incident reporting, the exception must include the reason, the duration, and any compensating controls.
+
+Security incidents must be reported to the Security team within 24 hours of discovery, and high-severity incidents should be reported immediately.
+
+Suspected phishing messages should be reported using the mailbox reporting button and must not be forwarded externally."
+it-security-policy::8-exceptions-and-escalations,it-security-policy,IT Security Policy,8. Exceptions and Escalations,Security,"IT Security Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+it-security-policy::9-document-control,it-security-policy,IT Security Policy,9. Document Control,Security,"IT Security Policy
+9. Document Control
+Document owner: IT Security Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+data-protection-policy::1-purpose-and-scope,data-protection-policy,Data Protection and Privacy Policy,1. Purpose and Scope,Privacy,"Data Protection and Privacy Policy
+1. Purpose and Scope
+Data Protection and Privacy Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+data-protection-policy::2-roles-and-responsibilities,data-protection-policy,Data Protection and Privacy Policy,2. Roles and Responsibilities,Privacy,"Data Protection and Privacy Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+data-protection-policy::3-personal-data-categories,data-protection-policy,Data Protection and Privacy Policy,3. Personal Data Categories,Privacy,"Data Protection and Privacy Policy
+3. Personal Data Categories
+The section on personal data categories defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to personal data categories should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for personal data categories, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to personal data categories must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to personal data categories should be reviewed periodically to identify recurring issues and opportunities for improvement."
+data-protection-policy::4-lawful-basis,data-protection-policy,Data Protection and Privacy Policy,4. Lawful Basis,Privacy,"Data Protection and Privacy Policy
+4. Lawful Basis
+The section on lawful basis defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to lawful basis should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for lawful basis, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to lawful basis must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to lawful basis should be reviewed periodically to identify recurring issues and opportunities for improvement."
+data-protection-policy::5-retention,data-protection-policy,Data Protection and Privacy Policy,5. Retention,Privacy,"Data Protection and Privacy Policy
+5. Retention
+The section on retention defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to retention should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for retention, the exception must include the reason, the duration, and any compensating controls.
+
+Routine HR and operational records are generally retained for 7 years unless a longer period is required by contract, litigation hold, or law.
+
+Deletion schedules must be paused when a legal hold notice is issued."
+data-protection-policy::6-data-subject-requests,data-protection-policy,Data Protection and Privacy Policy,6. Data Subject Requests,Privacy,"Data Protection and Privacy Policy
+6. Data Subject Requests
+The section on data subject requests defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to data subject requests should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for data subject requests, the exception must include the reason, the duration, and any compensating controls.
+
+Privacy requests should be acknowledged within 5 business days and tracked to closure in the privacy request log.
+
+Identity must be reasonably verified before personal data is disclosed or erased."
+data-protection-policy::7-breach-response,data-protection-policy,Data Protection and Privacy Policy,7. Breach Response,Privacy,"Data Protection and Privacy Policy
+7. Breach Response
+The section on breach response defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to breach response should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for breach response, the exception must include the reason, the duration, and any compensating controls.
+
+Potential personal data breaches must be escalated to Privacy and Security immediately for assessment.
+
+Internal notification should occur without undue delay and target an initial assessment window of 72 hours."
+data-protection-policy::8-exceptions-and-escalations,data-protection-policy,Data Protection and Privacy Policy,8. Exceptions and Escalations,Privacy,"Data Protection and Privacy Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+data-protection-policy::9-document-control,data-protection-policy,Data Protection and Privacy Policy,9. Document Control,Privacy,"Data Protection and Privacy Policy
+9. Document Control
+Document owner: Data Protection and Privacy Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+remote-work-policy::1-purpose-and-scope,remote-work-policy,Remote Work Policy,1. Purpose and Scope,People Operations,"Remote Work Policy
+1. Purpose and Scope
+Remote Work Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+remote-work-policy::2-roles-and-responsibilities,remote-work-policy,Remote Work Policy,2. Roles and Responsibilities,People Operations,"Remote Work Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+remote-work-policy::3-eligibility,remote-work-policy,Remote Work Policy,3. Eligibility,People Operations,"Remote Work Policy
+3. Eligibility
+The section on eligibility defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to eligibility should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for eligibility, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to eligibility must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to eligibility should be reviewed periodically to identify recurring issues and opportunities for improvement."
+remote-work-policy::4-workstation-standards,remote-work-policy,Remote Work Policy,4. Workstation Standards,People Operations,"Remote Work Policy
+4. Workstation Standards
+The section on workstation standards defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to workstation standards should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for workstation standards, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to workstation standards must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to workstation standards should be reviewed periodically to identify recurring issues and opportunities for improvement."
+remote-work-policy::5-core-hours,remote-work-policy,Remote Work Policy,5. Core Hours,People Operations,"Remote Work Policy
+5. Core Hours
+The section on core hours defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to core hours should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for core hours, the exception must include the reason, the duration, and any compensating controls.
+
+Remote employees are expected to be reachable during core collaboration hours of 10:00 to 15:00 in their home time zone unless approved otherwise.
+
+Outside core hours, teams may set role-specific schedules with manager approval."
+remote-work-policy::6-security-for-remote-work,remote-work-policy,Remote Work Policy,6. Security For Remote Work,People Operations,"Remote Work Policy
+6. Security For Remote Work
+The section on security for remote work defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to security for remote work should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for security for remote work, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to security for remote work must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to security for remote work should be reviewed periodically to identify recurring issues and opportunities for improvement."
+remote-work-policy::7-travel-while-remote,remote-work-policy,Remote Work Policy,7. Travel While Remote,People Operations,"Remote Work Policy
+7. Travel While Remote
+The section on travel while remote defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to travel while remote should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for travel while remote, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to travel while remote must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to travel while remote should be reviewed periodically to identify recurring issues and opportunities for improvement."
+remote-work-policy::8-exceptions-and-escalations,remote-work-policy,Remote Work Policy,8. Exceptions and Escalations,People Operations,"Remote Work Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+remote-work-policy::9-document-control,remote-work-policy,Remote Work Policy,9. Document Control,People Operations,"Remote Work Policy
+9. Document Control
+Document owner: Remote Work Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+health-and-safety-policy::1-purpose-and-scope,health-and-safety-policy,Health and Safety Policy,1. Purpose and Scope,Operations,"Health and Safety Policy
+1. Purpose and Scope
+Health and Safety Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+health-and-safety-policy::2-roles-and-responsibilities,health-and-safety-policy,Health and Safety Policy,2. Roles and Responsibilities,Operations,"Health and Safety Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+health-and-safety-policy::3-hazard-reporting,health-and-safety-policy,Health and Safety Policy,3. Hazard Reporting,Operations,"Health and Safety Policy
+3. Hazard Reporting
+The section on hazard reporting defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to hazard reporting should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for hazard reporting, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to hazard reporting must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to hazard reporting should be reviewed periodically to identify recurring issues and opportunities for improvement."
+health-and-safety-policy::4-ergonomics,health-and-safety-policy,Health and Safety Policy,4. Ergonomics,Operations,"Health and Safety Policy
+4. Ergonomics
+The section on ergonomics defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to ergonomics should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for ergonomics, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to ergonomics must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to ergonomics should be reviewed periodically to identify recurring issues and opportunities for improvement."
+health-and-safety-policy::5-emergency-response,health-and-safety-policy,Health and Safety Policy,5. Emergency Response,Operations,"Health and Safety Policy
+5. Emergency Response
+The section on emergency response defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to emergency response should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for emergency response, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to emergency response must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to emergency response should be reviewed periodically to identify recurring issues and opportunities for improvement."
+health-and-safety-policy::6-first-aid,health-and-safety-policy,Health and Safety Policy,6. First Aid,Operations,"Health and Safety Policy
+6. First Aid
+The section on first aid defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to first aid should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for first aid, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to first aid must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to first aid should be reviewed periodically to identify recurring issues and opportunities for improvement."
+health-and-safety-policy::7-incident-review,health-and-safety-policy,Health and Safety Policy,7. Incident Review,Operations,"Health and Safety Policy
+7. Incident Review
+The section on incident review defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to incident review should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for incident review, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to incident review must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to incident review should be reviewed periodically to identify recurring issues and opportunities for improvement."
+health-and-safety-policy::8-exceptions-and-escalations,health-and-safety-policy,Health and Safety Policy,8. Exceptions and Escalations,Operations,"Health and Safety Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+health-and-safety-policy::9-document-control,health-and-safety-policy,Health and Safety Policy,9. Document Control,Operations,"Health and Safety Policy
+9. Document Control
+Document owner: Health and Safety Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+leave-and-benefits-policy::1-purpose-and-scope,leave-and-benefits-policy,Leave and Benefits Policy,1. Purpose and Scope,People Operations,"Leave and Benefits Policy
+1. Purpose and Scope
+Leave and Benefits Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+leave-and-benefits-policy::2-roles-and-responsibilities,leave-and-benefits-policy,Leave and Benefits Policy,2. Roles and Responsibilities,People Operations,"Leave and Benefits Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+leave-and-benefits-policy::3-annual-leave,leave-and-benefits-policy,Leave and Benefits Policy,3. Annual Leave,People Operations,"Leave and Benefits Policy
+3. Annual Leave
+The section on annual leave defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to annual leave should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for annual leave, the exception must include the reason, the duration, and any compensating controls.
+
+Full-time employees accrue 20 working days of annual leave per year, prorated for partial years of service.
+
+Leave requests of more than 10 consecutive working days require manager approval at least 2 weeks in advance."
+leave-and-benefits-policy::4-sick-leave,leave-and-benefits-policy,Leave and Benefits Policy,4. Sick Leave,People Operations,"Leave and Benefits Policy
+4. Sick Leave
+The section on sick leave defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to sick leave should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for sick leave, the exception must include the reason, the duration, and any compensating controls.
+
+Employees receive up to 10 paid sick days per calendar year for personal illness, medical appointments, or short-term care needs.
+
+Managers should not request diagnostic details unless required for a lawful accommodation or leave process."
+leave-and-benefits-policy::5-parental-leave,leave-and-benefits-policy,Leave and Benefits Policy,5. Parental Leave,People Operations,"Leave and Benefits Policy
+5. Parental Leave
+The section on parental leave defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to parental leave should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for parental leave, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to parental leave must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to parental leave should be reviewed periodically to identify recurring issues and opportunities for improvement."
+leave-and-benefits-policy::6-public-holidays,leave-and-benefits-policy,Leave and Benefits Policy,6. Public Holidays,People Operations,"Leave and Benefits Policy
+6. Public Holidays
+The section on public holidays defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to public holidays should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for public holidays, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to public holidays must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to public holidays should be reviewed periodically to identify recurring issues and opportunities for improvement."
+leave-and-benefits-policy::7-benefits-administration,leave-and-benefits-policy,Leave and Benefits Policy,7. Benefits Administration,People Operations,"Leave and Benefits Policy
+7. Benefits Administration
+The section on benefits administration defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to benefits administration should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for benefits administration, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to benefits administration must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to benefits administration should be reviewed periodically to identify recurring issues and opportunities for improvement."
+leave-and-benefits-policy::8-exceptions-and-escalations,leave-and-benefits-policy,Leave and Benefits Policy,8. Exceptions and Escalations,People Operations,"Leave and Benefits Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+leave-and-benefits-policy::9-document-control,leave-and-benefits-policy,Leave and Benefits Policy,9. Document Control,People Operations,"Leave and Benefits Policy
+9. Document Control
+Document owner: Leave and Benefits Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+recruitment-and-onboarding-procedure::1-purpose-and-scope,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,1. Purpose and Scope,People Operations,"Recruitment and Onboarding Procedure
+1. Purpose and Scope
+Recruitment and Onboarding Procedure describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+recruitment-and-onboarding-procedure::2-roles-and-responsibilities,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,2. Roles and Responsibilities,People Operations,"Recruitment and Onboarding Procedure
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+recruitment-and-onboarding-procedure::3-job-requisition,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,3. Job Requisition,People Operations,"Recruitment and Onboarding Procedure
+3. Job Requisition
+The section on job requisition defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to job requisition should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for job requisition, the exception must include the reason, the duration, and any compensating controls.
+
+A new role cannot be posted until the job requisition includes an approved budget code, job description, and hiring justification.
+
+Backfills for already budgeted roles still require headcount confirmation from Finance."
+recruitment-and-onboarding-procedure::4-interview-process,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,4. Interview Process,People Operations,"Recruitment and Onboarding Procedure
+4. Interview Process
+The section on interview process defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to interview process should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for interview process, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to interview process must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to interview process should be reviewed periodically to identify recurring issues and opportunities for improvement."
+recruitment-and-onboarding-procedure::5-offer-approval,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,5. Offer Approval,People Operations,"Recruitment and Onboarding Procedure
+5. Offer Approval
+The section on offer approval defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to offer approval should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for offer approval, the exception must include the reason, the duration, and any compensating controls.
+
+Offer letters must be approved by the hiring manager, People Operations, and Finance when compensation is outside the benchmark band.
+
+No verbal promise of compensation or start date is binding until the signed offer letter is issued."
+recruitment-and-onboarding-procedure::6-pre-boarding-checklist,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,6. Pre-Boarding Checklist,People Operations,"Recruitment and Onboarding Procedure
+6. Pre-Boarding Checklist
+The section on pre-boarding checklist defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to pre-boarding checklist should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for pre-boarding checklist, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to pre-boarding checklist must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to pre-boarding checklist should be reviewed periodically to identify recurring issues and opportunities for improvement."
+recruitment-and-onboarding-procedure::7-30-60-90-onboarding,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,7. 30-60-90 Onboarding,People Operations,"Recruitment and Onboarding Procedure
+7. 30-60-90 Onboarding
+The section on 30-60-90 onboarding defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to 30-60-90 onboarding should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for 30-60-90 onboarding, the exception must include the reason, the duration, and any compensating controls.
+
+Managers must complete a documented 30-60-90 day plan for every new employee by the employee's first week.
+
+The plan should include role outcomes, stakeholder introductions, and required training milestones."
+recruitment-and-onboarding-procedure::8-exceptions-and-escalations,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,8. Exceptions and Escalations,People Operations,"Recruitment and Onboarding Procedure
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+recruitment-and-onboarding-procedure::9-document-control,recruitment-and-onboarding-procedure,Recruitment and Onboarding Procedure,9. Document Control,People Operations,"Recruitment and Onboarding Procedure
+9. Document Control
+Document owner: Recruitment and Onboarding Procedure owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+performance-management-policy::1-purpose-and-scope,performance-management-policy,Performance Management Policy,1. Purpose and Scope,People Operations,"Performance Management Policy
+1. Purpose and Scope
+Performance Management Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+performance-management-policy::2-roles-and-responsibilities,performance-management-policy,Performance Management Policy,2. Roles and Responsibilities,People Operations,"Performance Management Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+performance-management-policy::3-goal-setting,performance-management-policy,Performance Management Policy,3. Goal Setting,People Operations,"Performance Management Policy
+3. Goal Setting
+The section on goal setting defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to goal setting should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for goal setting, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to goal setting must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to goal setting should be reviewed periodically to identify recurring issues and opportunities for improvement."
+performance-management-policy::4-review-cycles,performance-management-policy,Performance Management Policy,4. Review Cycles,People Operations,"Performance Management Policy
+4. Review Cycles
+The section on review cycles defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to review cycles should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for review cycles, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to review cycles must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to review cycles should be reviewed periodically to identify recurring issues and opportunities for improvement."
+performance-management-policy::5-rating-definitions,performance-management-policy,Performance Management Policy,5. Rating Definitions,People Operations,"Performance Management Policy
+5. Rating Definitions
+The section on rating definitions defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to rating definitions should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for rating definitions, the exception must include the reason, the duration, and any compensating controls.
+
+A rating of 'Exceeds Expectations' indicates performance that consistently surpasses core role requirements with measurable impact.
+
+A rating of 'Needs Improvement' triggers a structured review conversation and may lead to a performance improvement plan."
+performance-management-policy::6-improvement-plans,performance-management-policy,Performance Management Policy,6. Improvement Plans,People Operations,"Performance Management Policy
+6. Improvement Plans
+The section on improvement plans defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to improvement plans should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for improvement plans, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to improvement plans must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to improvement plans should be reviewed periodically to identify recurring issues and opportunities for improvement."
+performance-management-policy::7-promotion-readiness,performance-management-policy,Performance Management Policy,7. Promotion Readiness,People Operations,"Performance Management Policy
+7. Promotion Readiness
+The section on promotion readiness defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to promotion readiness should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for promotion readiness, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to promotion readiness must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to promotion readiness should be reviewed periodically to identify recurring issues and opportunities for improvement."
+performance-management-policy::8-exceptions-and-escalations,performance-management-policy,Performance Management Policy,8. Exceptions and Escalations,People Operations,"Performance Management Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+performance-management-policy::9-document-control,performance-management-policy,Performance Management Policy,9. Document Control,People Operations,"Performance Management Policy
+9. Document Control
+Document owner: Performance Management Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+disciplinary-procedure::1-purpose-and-scope,disciplinary-procedure,Disciplinary and Grievance Procedure,1. Purpose and Scope,People Operations,"Disciplinary and Grievance Procedure
+1. Purpose and Scope
+Disciplinary and Grievance Procedure describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+disciplinary-procedure::2-roles-and-responsibilities,disciplinary-procedure,Disciplinary and Grievance Procedure,2. Roles and Responsibilities,People Operations,"Disciplinary and Grievance Procedure
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+disciplinary-procedure::3-informal-resolution,disciplinary-procedure,Disciplinary and Grievance Procedure,3. Informal Resolution,People Operations,"Disciplinary and Grievance Procedure
+3. Informal Resolution
+The section on informal resolution defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to informal resolution should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for informal resolution, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to informal resolution must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to informal resolution should be reviewed periodically to identify recurring issues and opportunities for improvement."
+disciplinary-procedure::4-formal-investigation,disciplinary-procedure,Disciplinary and Grievance Procedure,4. Formal Investigation,People Operations,"Disciplinary and Grievance Procedure
+4. Formal Investigation
+The section on formal investigation defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to formal investigation should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for formal investigation, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to formal investigation must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to formal investigation should be reviewed periodically to identify recurring issues and opportunities for improvement."
+disciplinary-procedure::5-warnings,disciplinary-procedure,Disciplinary and Grievance Procedure,5. Warnings,People Operations,"Disciplinary and Grievance Procedure
+5. Warnings
+The section on warnings defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to warnings should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for warnings, the exception must include the reason, the duration, and any compensating controls.
+
+Formal warnings are normally issued in the sequence of verbal reminder, written warning, final written warning, and termination, although serious misconduct may justify acceleration.
+
+Each warning must describe the conduct, the expected improvement, the review date, and the consequences of further breaches."
+disciplinary-procedure::6-appeals,disciplinary-procedure,Disciplinary and Grievance Procedure,6. Appeals,People Operations,"Disciplinary and Grievance Procedure
+6. Appeals
+The section on appeals defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to appeals should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for appeals, the exception must include the reason, the duration, and any compensating controls.
+
+Employees may submit a written appeal within 5 business days of receiving a formal disciplinary outcome.
+
+Appeals should be reviewed by a manager or HR representative not directly involved in the original decision."
+disciplinary-procedure::7-record-retention,disciplinary-procedure,Disciplinary and Grievance Procedure,7. Record Retention,People Operations,"Disciplinary and Grievance Procedure
+7. Record Retention
+The section on record retention defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to record retention should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for record retention, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to record retention must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to record retention should be reviewed periodically to identify recurring issues and opportunities for improvement."
+disciplinary-procedure::8-exceptions-and-escalations,disciplinary-procedure,Disciplinary and Grievance Procedure,8. Exceptions and Escalations,People Operations,"Disciplinary and Grievance Procedure
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+disciplinary-procedure::9-document-control,disciplinary-procedure,Disciplinary and Grievance Procedure,9. Document Control,People Operations,"Disciplinary and Grievance Procedure
+9. Document Control
+Document owner: Disciplinary and Grievance Procedure owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+acceptable-use-policy::1-purpose-and-scope,acceptable-use-policy,Acceptable Use Policy,1. Purpose and Scope,Security,"Acceptable Use Policy
+1. Purpose and Scope
+Acceptable Use Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+acceptable-use-policy::2-roles-and-responsibilities,acceptable-use-policy,Acceptable Use Policy,2. Roles and Responsibilities,Security,"Acceptable Use Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+acceptable-use-policy::3-approved-use,acceptable-use-policy,Acceptable Use Policy,3. Approved Use,Security,"Acceptable Use Policy
+3. Approved Use
+The section on approved use defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to approved use should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for approved use, the exception must include the reason, the duration, and any compensating controls.
+
+Company systems are primarily for legitimate business use, with only limited incidental personal use that does not interfere with work or security.
+
+Users must protect confidential information when using collaboration tools, file sharing platforms, and AI systems."
+acceptable-use-policy::4-prohibited-activities,acceptable-use-policy,Acceptable Use Policy,4. Prohibited Activities,Security,"Acceptable Use Policy
+4. Prohibited Activities
+The section on prohibited activities defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to prohibited activities should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for prohibited activities, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to prohibited activities must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to prohibited activities should be reviewed periodically to identify recurring issues and opportunities for improvement."
+acceptable-use-policy::5-software-installation,acceptable-use-policy,Acceptable Use Policy,5. Software Installation,Security,"Acceptable Use Policy
+5. Software Installation
+The section on software installation defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to software installation should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for software installation, the exception must include the reason, the duration, and any compensating controls.
+
+Only software from approved repositories or IT-managed deployment tools may be installed on company devices.
+
+Local administrator rights require written business justification and periodic review."
+acceptable-use-policy::6-monitoring-notice,acceptable-use-policy,Acceptable Use Policy,6. Monitoring Notice,Security,"Acceptable Use Policy
+6. Monitoring Notice
+The section on monitoring notice defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to monitoring notice should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for monitoring notice, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to monitoring notice must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to monitoring notice should be reviewed periodically to identify recurring issues and opportunities for improvement."
+acceptable-use-policy::7-enforcement,acceptable-use-policy,Acceptable Use Policy,7. Enforcement,Security,"Acceptable Use Policy
+7. Enforcement
+The section on enforcement defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to enforcement should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for enforcement, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to enforcement must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to enforcement should be reviewed periodically to identify recurring issues and opportunities for improvement."
+acceptable-use-policy::8-exceptions-and-escalations,acceptable-use-policy,Acceptable Use Policy,8. Exceptions and Escalations,Security,"Acceptable Use Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+acceptable-use-policy::9-document-control,acceptable-use-policy,Acceptable Use Policy,9. Document Control,Security,"Acceptable Use Policy
+9. Document Control
+Document owner: Acceptable Use Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+finance-and-expense-policy::1-purpose-and-scope,finance-and-expense-policy,Finance and Expense Policy,1. Purpose and Scope,Finance,"Finance and Expense Policy
+1. Purpose and Scope
+Finance and Expense Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+finance-and-expense-policy::2-roles-and-responsibilities,finance-and-expense-policy,Finance and Expense Policy,2. Roles and Responsibilities,Finance,"Finance and Expense Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+finance-and-expense-policy::3-expense-categories,finance-and-expense-policy,Finance and Expense Policy,3. Expense Categories,Finance,"Finance and Expense Policy
+3. Expense Categories
+The section on expense categories defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to expense categories should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for expense categories, the exception must include the reason, the duration, and any compensating controls.
+
+Meals above USD 75 per person require an itemized receipt and business purpose note.
+
+Home internet reimbursement is capped at USD 50 per month for approved remote roles."
+finance-and-expense-policy::4-approval-thresholds,finance-and-expense-policy,Finance and Expense Policy,4. Approval Thresholds,Finance,"Finance and Expense Policy
+4. Approval Thresholds
+The section on approval thresholds defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to approval thresholds should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for approval thresholds, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to approval thresholds must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to approval thresholds should be reviewed periodically to identify recurring issues and opportunities for improvement."
+finance-and-expense-policy::5-receipts,finance-and-expense-policy,Finance and Expense Policy,5. Receipts,Finance,"Finance and Expense Policy
+5. Receipts
+The section on receipts defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to receipts should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for receipts, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to receipts must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to receipts should be reviewed periodically to identify recurring issues and opportunities for improvement."
+finance-and-expense-policy::6-corporate-cards,finance-and-expense-policy,Finance and Expense Policy,6. Corporate Cards,Finance,"Finance and Expense Policy
+6. Corporate Cards
+The section on corporate cards defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to corporate cards should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for corporate cards, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to corporate cards must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to corporate cards should be reviewed periodically to identify recurring issues and opportunities for improvement."
+finance-and-expense-policy::7-reimbursement-timing,finance-and-expense-policy,Finance and Expense Policy,7. Reimbursement Timing,Finance,"Finance and Expense Policy
+7. Reimbursement Timing
+The section on reimbursement timing defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to reimbursement timing should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for reimbursement timing, the exception must include the reason, the duration, and any compensating controls.
+
+Approved expense reports are reimbursed in the next regular payroll cycle when submitted by the monthly cutoff date.
+
+Late submissions may be deferred to a subsequent cycle unless an exception is approved."
+finance-and-expense-policy::8-exceptions-and-escalations,finance-and-expense-policy,Finance and Expense Policy,8. Exceptions and Escalations,Finance,"Finance and Expense Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+finance-and-expense-policy::9-document-control,finance-and-expense-policy,Finance and Expense Policy,9. Document Control,Finance,"Finance and Expense Policy
+9. Document Control
+Document owner: Finance and Expense Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+procurement-policy::1-purpose-and-scope,procurement-policy,Procurement Policy,1. Purpose and Scope,Finance,"Procurement Policy
+1. Purpose and Scope
+Procurement Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+procurement-policy::2-roles-and-responsibilities,procurement-policy,Procurement Policy,2. Roles and Responsibilities,Finance,"Procurement Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+procurement-policy::3-vendor-selection,procurement-policy,Procurement Policy,3. Vendor Selection,Finance,"Procurement Policy
+3. Vendor Selection
+The section on vendor selection defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to vendor selection should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for vendor selection, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to vendor selection must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to vendor selection should be reviewed periodically to identify recurring issues and opportunities for improvement."
+procurement-policy::4-three-quote-rule,procurement-policy,Procurement Policy,4. Three-Quote Rule,Finance,"Procurement Policy
+4. Three-Quote Rule
+The section on three-quote rule defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to three-quote rule should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for three-quote rule, the exception must include the reason, the duration, and any compensating controls.
+
+Purchases above USD 5,000 normally require at least three competitive quotes unless a documented sole-source exception is approved.
+
+Procurement must retain quote comparisons and award rationale."
+procurement-policy::5-contract-review,procurement-policy,Procurement Policy,5. Contract Review,Finance,"Procurement Policy
+5. Contract Review
+The section on contract review defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to contract review should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for contract review, the exception must include the reason, the duration, and any compensating controls.
+
+All vendor contracts involving personal data, security access, or auto-renewal terms must be reviewed by Legal or an authorized reviewer before signature.
+
+Employees may not sign vendor terms on behalf of the company unless they hold delegated authority."
+procurement-policy::6-conflict-checks,procurement-policy,Procurement Policy,6. Conflict Checks,Finance,"Procurement Policy
+6. Conflict Checks
+The section on conflict checks defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to conflict checks should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for conflict checks, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to conflict checks must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to conflict checks should be reviewed periodically to identify recurring issues and opportunities for improvement."
+procurement-policy::7-purchase-orders,procurement-policy,Procurement Policy,7. Purchase Orders,Finance,"Procurement Policy
+7. Purchase Orders
+The section on purchase orders defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to purchase orders should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for purchase orders, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to purchase orders must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to purchase orders should be reviewed periodically to identify recurring issues and opportunities for improvement."
+procurement-policy::8-exceptions-and-escalations,procurement-policy,Procurement Policy,8. Exceptions and Escalations,Finance,"Procurement Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+procurement-policy::9-document-control,procurement-policy,Procurement Policy,9. Document Control,Finance,"Procurement Policy
+9. Document Control
+Document owner: Procurement Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"
+risk-management-policy::1-purpose-and-scope,risk-management-policy,Risk Management Policy,1. Purpose and Scope,Compliance,"Risk Management Policy
+1. Purpose and Scope
+Risk Management Policy describes the formal policy requirements and operating procedures used by Northstar Analytics Ltd.. It is written as a synthetic but realistic document for training retrieval, summarization, and question-answering systems.
+
+This document applies to all employees, interns, temporary workers, and approved contractors unless a section explicitly states otherwise.
+
+Managers are responsible for enforcing this policy consistently and for escalating unusual cases to the document owner."
+risk-management-policy::2-roles-and-responsibilities,risk-management-policy,Risk Management Policy,2. Roles and Responsibilities,Compliance,"Risk Management Policy
+2. Roles and Responsibilities
+Employees must read, understand, and follow the policy requirements relevant to their role.
+
+Managers must document exceptions in writing and retain approvals in the designated system of record.
+
+The document owner reviews this policy at least annually and whenever business, legal, or technical requirements materially change."
+risk-management-policy::3-risk-register,risk-management-policy,Risk Management Policy,3. Risk Register,Compliance,"Risk Management Policy
+3. Risk Register
+The section on risk register defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to risk register should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for risk register, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to risk register must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to risk register should be reviewed periodically to identify recurring issues and opportunities for improvement."
+risk-management-policy::4-risk-scoring,risk-management-policy,Risk Management Policy,4. Risk Scoring,Compliance,"Risk Management Policy
+4. Risk Scoring
+The section on risk scoring defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to risk scoring should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for risk scoring, the exception must include the reason, the duration, and any compensating controls.
+
+Risks are scored on a 1 to 5 scale for likelihood and impact, and inherent risk is calculated by multiplying the two values.
+
+Any risk with an inherent score of 15 or higher must be reviewed by the executive risk committee."
+risk-management-policy::5-control-owners,risk-management-policy,Risk Management Policy,5. Control Owners,Compliance,"Risk Management Policy
+5. Control Owners
+The section on control owners defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to control owners should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for control owners, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to control owners must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to control owners should be reviewed periodically to identify recurring issues and opportunities for improvement."
+risk-management-policy::6-review-cadence,risk-management-policy,Risk Management Policy,6. Review Cadence,Compliance,"Risk Management Policy
+6. Review Cadence
+The section on review cadence defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to review cadence should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for review cadence, the exception must include the reason, the duration, and any compensating controls.
+
+The enterprise risk register is reviewed quarterly, and high-rated risks may be reviewed more frequently.
+
+Control owners must update status notes before each review meeting."
+risk-management-policy::7-escalation-thresholds,risk-management-policy,Risk Management Policy,7. Escalation Thresholds,Compliance,"Risk Management Policy
+7. Escalation Thresholds
+The section on escalation thresholds defines the standard rule, the approval path, and the records that must be retained.
+
+Requests related to escalation thresholds should be submitted through the official workflow rather than handled informally through chat or email alone.
+
+When a manager grants an exception for escalation thresholds, the exception must include the reason, the duration, and any compensating controls.
+
+Records related to escalation thresholds must be stored in the designated repository with a clear owner and retention period.
+
+Metrics related to escalation thresholds should be reviewed periodically to identify recurring issues and opportunities for improvement."
+risk-management-policy::8-exceptions-and-escalations,risk-management-policy,Risk Management Policy,8. Exceptions and Escalations,Compliance,"Risk Management Policy
+8. Exceptions and Escalations
+Exceptions must be rare, time-bound, and approved by the designated authority named in the relevant section.
+
+All exceptions must be logged with the approver, rationale, expiration date, and any required follow-up actions."
+risk-management-policy::9-document-control,risk-management-policy,Risk Management Policy,9. Document Control,Compliance,"Risk Management Policy
+9. Document Control
+Document owner: Risk Management Policy owner
+
+Version: 3.0-rag
+
+Effective date: 2026-04-20
+
+Review frequency: annual or upon material change"

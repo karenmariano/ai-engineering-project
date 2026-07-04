@@ -1,0 +1,575 @@
+{
+  "summary": {
+    "questions": 24,
+    "corpus_chunks": 135,
+    "groundedness_pct": 100.0,
+    "citation_accuracy_pct": 100.0,
+    "top1_retrieval_pct": 87.5,
+    "latency_p50_ms": 7.5,
+    "latency_p95_ms": 10.15
+  },
+  "results": [
+    {
+      "id": "q001",
+      "question": "What is the notice requirement for being absent or late?",
+      "expected_chunk_ids": [
+        "employee-handbook::4-attendance"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7511.73,
+      "cited_chunk_ids": [
+        "employee-handbook::4-attendance",
+        "acceptable-use-policy::6-monitoring-notice",
+        "remote-work-policy::3-eligibility",
+        "employee-handbook::8-exceptions-and-escalations",
+        "leave-and-benefits-policy::8-exceptions-and-escalations",
+        "hr-policies-and-procedures::8-exceptions-and-escalations",
+        "disciplinary-procedure::8-exceptions-and-escalations",
+        "remote-work-policy::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Employee Handbook** \u2014 *4. Attendance*:\n\nEmployee Handbook\n4. Attendance\nThe section on attendance defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to attendance should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for attendance, the exception must include the reason, the duration, and any compensating controls.\n\nEmployees who will be absen"
+    },
+    {
+      "id": "q002",
+      "question": "How valuable can a non-cash gift be before it must be declined or disclosed?",
+      "expected_chunk_ids": [
+        "code-of-conduct::5-gifts-and-hospitality"
+      ],
+      "task": "retrieval",
+      "latency_ms": 10.39,
+      "cited_chunk_ids": [
+        "code-of-conduct::5-gifts-and-hospitality",
+        "procurement-policy::5-contract-review",
+        "procurement-policy::7-purchase-orders",
+        "finance-and-expense-policy::5-receipts",
+        "finance-and-expense-policy::6-corporate-cards",
+        "procurement-policy::8-exceptions-and-escalations",
+        "procurement-policy::4-three-quote-rule",
+        "finance-and-expense-policy::3-expense-categories"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Code of Conduct** \u2014 *5. Gifts And Hospitality*:\n\nCode of Conduct\n5. Gifts And Hospitality\nThe section on gifts and hospitality defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to gifts and hospitality should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for gifts and hospitality, the exception must include the reason, the duration, and any "
+    },
+    {
+      "id": "q003",
+      "question": "How quickly must security incidents be reported?",
+      "expected_chunk_ids": [
+        "it-security-policy::7-incident-reporting"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.43,
+      "cited_chunk_ids": [
+        "it-security-policy::7-incident-reporting",
+        "data-protection-policy::7-breach-response",
+        "it-security-policy::6-logging-and-monitoring",
+        "code-of-conduct::6-reporting-concerns",
+        "it-security-policy::8-exceptions-and-escalations",
+        "disciplinary-procedure::8-exceptions-and-escalations",
+        "data-protection-policy::8-exceptions-and-escalations",
+        "health-and-safety-policy::7-incident-review"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **IT Security Policy** \u2014 *7. Incident Reporting*:\n\nIT Security Policy\n7. Incident Reporting\nThe section on incident reporting defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to incident reporting should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for incident reporting, the exception must include the reason, the duration, and any compensat"
+    },
+    {
+      "id": "q004",
+      "question": "How long are routine HR and operational records retained?",
+      "expected_chunk_ids": [
+        "data-protection-policy::5-retention"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.71,
+      "cited_chunk_ids": [
+        "data-protection-policy::5-retention",
+        "hr-policies-and-procedures::5-records-management",
+        "disciplinary-procedure::7-record-retention",
+        "hr-policies-and-procedures::3-recruitment",
+        "hr-policies-and-procedures::6-training",
+        "leave-and-benefits-policy::7-benefits-administration",
+        "leave-and-benefits-policy::3-annual-leave",
+        "employee-handbook::7-acknowledgment"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Data Protection and Privacy Policy** \u2014 *5. Retention*:\n\nData Protection and Privacy Policy\n5. Retention\nThe section on retention defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to retention should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for retention, the exception must include the reason, the duration, and any compensating controls."
+    },
+    {
+      "id": "q005",
+      "question": "What is the target acknowledgment window for privacy requests?",
+      "expected_chunk_ids": [
+        "data-protection-policy::6-data-subject-requests"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.99,
+      "cited_chunk_ids": [
+        "data-protection-policy::7-breach-response",
+        "data-protection-policy::6-data-subject-requests",
+        "employee-handbook::7-acknowledgment",
+        "data-protection-policy::1-purpose-and-scope",
+        "it-security-policy::7-incident-reporting",
+        "it-security-policy::3-identity-and-access",
+        "data-protection-policy::8-exceptions-and-escalations",
+        "it-security-policy::9-document-control"
+      ],
+      "top1_hit": false,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Data Protection and Privacy Policy** \u2014 *7. Breach Response*:\n\nData Protection and Privacy Policy\n7. Breach Response\nThe section on breach response defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to breach response should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for breach response, the exception must include the reason, the duration, "
+    },
+    {
+      "id": "q006",
+      "question": "What are the remote-work core collaboration hours?",
+      "expected_chunk_ids": [
+        "remote-work-policy::5-core-hours"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.82,
+      "cited_chunk_ids": [
+        "remote-work-policy::5-core-hours",
+        "remote-work-policy::1-purpose-and-scope",
+        "remote-work-policy::8-exceptions-and-escalations",
+        "remote-work-policy::6-security-for-remote-work",
+        "remote-work-policy::4-workstation-standards",
+        "remote-work-policy::2-roles-and-responsibilities",
+        "remote-work-policy::3-eligibility",
+        "remote-work-policy::9-document-control"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Remote Work Policy** \u2014 *5. Core Hours*:\n\nRemote Work Policy\n5. Core Hours\nThe section on core hours defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to core hours should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for core hours, the exception must include the reason, the duration, and any compensating controls.\n\nRemote employees are expe"
+    },
+    {
+      "id": "q007",
+      "question": "How much annual leave do full-time employees accrue?",
+      "expected_chunk_ids": [
+        "leave-and-benefits-policy::3-annual-leave"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.68,
+      "cited_chunk_ids": [
+        "leave-and-benefits-policy::3-annual-leave",
+        "leave-and-benefits-policy::2-roles-and-responsibilities",
+        "leave-and-benefits-policy::4-sick-leave",
+        "leave-and-benefits-policy::6-public-holidays",
+        "leave-and-benefits-policy::5-parental-leave",
+        "employee-handbook::9-document-control",
+        "leave-and-benefits-policy::7-benefits-administration",
+        "employee-handbook::6-travel-and-expenses"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Leave and Benefits Policy** \u2014 *3. Annual Leave*:\n\nLeave and Benefits Policy\n3. Annual Leave\nThe section on annual leave defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to annual leave should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for annual leave, the exception must include the reason, the duration, and any compensating controls.\n\nF"
+    },
+    {
+      "id": "q008",
+      "question": "What approvals are needed before a role can be posted?",
+      "expected_chunk_ids": [
+        "recruitment-and-onboarding-procedure::3-job-requisition"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.8,
+      "cited_chunk_ids": [
+        "recruitment-and-onboarding-procedure::3-job-requisition",
+        "recruitment-and-onboarding-procedure::2-roles-and-responsibilities",
+        "acceptable-use-policy::2-roles-and-responsibilities",
+        "recruitment-and-onboarding-procedure::8-exceptions-and-escalations",
+        "recruitment-and-onboarding-procedure::5-offer-approval",
+        "hr-policies-and-procedures::4-onboarding",
+        "remote-work-policy::3-eligibility",
+        "recruitment-and-onboarding-procedure::6-pre-boarding-checklist"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Recruitment and Onboarding Procedure** \u2014 *3. Job Requisition*:\n\nRecruitment and Onboarding Procedure\n3. Job Requisition\nThe section on job requisition defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to job requisition should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for job requisition, the exception must include the reason, the durati"
+    },
+    {
+      "id": "q009",
+      "question": "When is a 30-60-90 day plan due?",
+      "expected_chunk_ids": [
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
+      ],
+      "task": "retrieval",
+      "latency_ms": 6.86,
+      "cited_chunk_ids": [
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
+        "employee-handbook::4-attendance",
+        "leave-and-benefits-policy::3-annual-leave",
+        "leave-and-benefits-policy::4-sick-leave",
+        "finance-and-expense-policy::7-reimbursement-timing",
+        "remote-work-policy::3-eligibility",
+        "finance-and-expense-policy::3-expense-categories",
+        "finance-and-expense-policy::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Recruitment and Onboarding Procedure** \u2014 *7. 30-60-90 Onboarding*:\n\nRecruitment and Onboarding Procedure\n7. 30-60-90 Onboarding\nThe section on 30-60-90 onboarding defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to 30-60-90 onboarding should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for 30-60-90 onboarding, the exception must include th"
+    },
+    {
+      "id": "q010",
+      "question": "What rating triggers a structured review conversation and may lead to a PIP?",
+      "expected_chunk_ids": [
+        "performance-management-policy::5-rating-definitions"
+      ],
+      "task": "retrieval",
+      "latency_ms": 8.06,
+      "cited_chunk_ids": [
+        "performance-management-policy::5-rating-definitions",
+        "risk-management-policy::6-review-cadence",
+        "disciplinary-procedure::5-warnings",
+        "performance-management-policy::4-review-cycles",
+        "risk-management-policy::4-risk-scoring",
+        "health-and-safety-policy::7-incident-review",
+        "performance-management-policy::9-document-control",
+        "risk-management-policy::9-document-control"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Performance Management Policy** \u2014 *5. Rating Definitions*:\n\nPerformance Management Policy\n5. Rating Definitions\nThe section on rating definitions defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to rating definitions should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for rating definitions, the exception must include the reason, the durat"
+    },
+    {
+      "id": "q011",
+      "question": "How long does an employee have to submit a disciplinary appeal?",
+      "expected_chunk_ids": [
+        "disciplinary-procedure::6-appeals"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.4,
+      "cited_chunk_ids": [
+        "disciplinary-procedure::6-appeals",
+        "disciplinary-procedure::2-roles-and-responsibilities",
+        "disciplinary-procedure::5-warnings",
+        "disciplinary-procedure::4-formal-investigation",
+        "disciplinary-procedure::8-exceptions-and-escalations",
+        "disciplinary-procedure::9-document-control",
+        "code-of-conduct::7-non-retaliation",
+        "employee-handbook::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Disciplinary and Grievance Procedure** \u2014 *6. Appeals*:\n\nDisciplinary and Grievance Procedure\n6. Appeals\nThe section on appeals defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to appeals should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for appeals, the exception must include the reason, the duration, and any compensating controls.\n\nEmpl"
+    },
+    {
+      "id": "q012",
+      "question": "What is the cap for home internet reimbursement?",
+      "expected_chunk_ids": [
+        "finance-and-expense-policy::3-expense-categories"
+      ],
+      "task": "retrieval",
+      "latency_ms": 7.57,
+      "cited_chunk_ids": [
+        "finance-and-expense-policy::3-expense-categories",
+        "finance-and-expense-policy::7-reimbursement-timing",
+        "procurement-policy::4-three-quote-rule",
+        "finance-and-expense-policy::1-purpose-and-scope",
+        "finance-and-expense-policy::4-approval-thresholds",
+        "finance-and-expense-policy::5-receipts",
+        "employee-handbook::6-travel-and-expenses",
+        "finance-and-expense-policy::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Finance and Expense Policy** \u2014 *3. Expense Categories*:\n\nFinance and Expense Policy\n3. Expense Categories\nThe section on expense categories defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to expense categories should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for expense categories, the exception must include the reason, the duration, a"
+    },
+    {
+      "id": "q013",
+      "question": "When are three quotes normally required?",
+      "expected_chunk_ids": [
+        "procurement-policy::4-three-quote-rule"
+      ],
+      "task": "retrieval",
+      "latency_ms": 8.71,
+      "cited_chunk_ids": [
+        "procurement-policy::4-three-quote-rule",
+        "acceptable-use-policy::8-exceptions-and-escalations",
+        "hr-policies-and-procedures::8-exceptions-and-escalations",
+        "health-and-safety-policy::8-exceptions-and-escalations",
+        "acceptable-use-policy::2-roles-and-responsibilities",
+        "acceptable-use-policy::1-purpose-and-scope",
+        "health-and-safety-policy::2-roles-and-responsibilities",
+        "acceptable-use-policy::9-document-control"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Procurement Policy** \u2014 *4. Three-Quote Rule*:\n\nProcurement Policy\n4. Three-Quote Rule\nThe section on three-quote rule defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to three-quote rule should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for three-quote rule, the exception must include the reason, the duration, and any compensating contro"
+    },
+    {
+      "id": "q014",
+      "question": "At what inherent risk score is executive committee review required?",
+      "expected_chunk_ids": [
+        "risk-management-policy::4-risk-scoring"
+      ],
+      "task": "retrieval",
+      "latency_ms": 8.06,
+      "cited_chunk_ids": [
+        "risk-management-policy::4-risk-scoring",
+        "risk-management-policy::6-review-cadence",
+        "risk-management-policy::8-exceptions-and-escalations",
+        "risk-management-policy::2-roles-and-responsibilities",
+        "risk-management-policy::7-escalation-thresholds",
+        "risk-management-policy::3-risk-register",
+        "performance-management-policy::5-rating-definitions",
+        "risk-management-policy::1-purpose-and-scope"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Risk Management Policy** \u2014 *4. Risk Scoring*:\n\nRisk Management Policy\n4. Risk Scoring\nThe section on risk scoring defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to risk scoring should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for risk scoring, the exception must include the reason, the duration, and any compensating controls.\n\nRisks a"
+    },
+    {
+      "id": "qa001",
+      "question": "How much notice is required for an unplanned absence?",
+      "gold_answer": "Employees should notify their manager and team channel at least 1 hour before the start of the scheduled workday unless there is an emergency.",
+      "expected_chunk_ids": [
+        "employee-handbook::4-attendance"
+      ],
+      "task": "qa",
+      "latency_ms": 8.76,
+      "cited_chunk_ids": [
+        "leave-and-benefits-policy::4-sick-leave",
+        "leave-and-benefits-policy::3-annual-leave",
+        "leave-and-benefits-policy::8-exceptions-and-escalations",
+        "leave-and-benefits-policy::6-public-holidays",
+        "employee-handbook::4-attendance",
+        "employee-handbook::6-travel-and-expenses",
+        "remote-work-policy::3-eligibility",
+        "hr-policies-and-procedures::8-exceptions-and-escalations"
+      ],
+      "top1_hit": false,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Leave and Benefits Policy** \u2014 *4. Sick Leave*:\n\nLeave and Benefits Policy\n4. Sick Leave\nThe section on sick leave defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to sick leave should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for sick leave, the exception must include the reason, the duration, and any compensating controls.\n\nEmployees r"
+    },
+    {
+      "id": "qa002",
+      "question": "What is the vendor gift threshold?",
+      "gold_answer": "Non-cash gifts above an estimated value of USD 75 must be declined or disclosed to Compliance for written guidance.",
+      "expected_chunk_ids": [
+        "code-of-conduct::5-gifts-and-hospitality"
+      ],
+      "task": "qa",
+      "latency_ms": 7.11,
+      "cited_chunk_ids": [
+        "code-of-conduct::5-gifts-and-hospitality",
+        "procurement-policy::3-vendor-selection",
+        "finance-and-expense-policy::4-approval-thresholds",
+        "procurement-policy::5-contract-review",
+        "procurement-policy::4-three-quote-rule",
+        "procurement-policy::8-exceptions-and-escalations",
+        "procurement-policy::7-purchase-orders",
+        "procurement-policy::9-document-control"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Code of Conduct** \u2014 *5. Gifts And Hospitality*:\n\nCode of Conduct\n5. Gifts And Hospitality\nThe section on gifts and hospitality defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to gifts and hospitality should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for gifts and hospitality, the exception must include the reason, the duration, and any "
+    },
+    {
+      "id": "qa003",
+      "question": "What is the minimum password length?",
+      "gold_answer": "User passwords must be at least 14 characters long and protected with multi-factor authentication where supported.",
+      "expected_chunk_ids": [
+        "it-security-policy::5-password-and-mfa"
+      ],
+      "task": "qa",
+      "latency_ms": 7.27,
+      "cited_chunk_ids": [
+        "it-security-policy::5-password-and-mfa",
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
+        "it-security-policy::8-exceptions-and-escalations",
+        "data-protection-policy::8-exceptions-and-escalations",
+        "code-of-conduct::8-exceptions-and-escalations",
+        "acceptable-use-policy::8-exceptions-and-escalations",
+        "hr-policies-and-procedures::8-exceptions-and-escalations",
+        "employee-handbook::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **IT Security Policy** \u2014 *5. Password And Mfa*:\n\nIT Security Policy\n5. Password And Mfa\nThe section on password and MFA defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to password and MFA should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for password and MFA, the exception must include the reason, the duration, and any compensating contro"
+    },
+    {
+      "id": "qa004",
+      "question": "How quickly should security incidents be reported?",
+      "gold_answer": "Security incidents must be reported within 24 hours of discovery, and high-severity incidents should be reported immediately.",
+      "expected_chunk_ids": [
+        "it-security-policy::7-incident-reporting"
+      ],
+      "task": "qa",
+      "latency_ms": 6.67,
+      "cited_chunk_ids": [
+        "it-security-policy::7-incident-reporting",
+        "data-protection-policy::7-breach-response",
+        "it-security-policy::6-logging-and-monitoring",
+        "code-of-conduct::6-reporting-concerns",
+        "health-and-safety-policy::7-incident-review",
+        "disciplinary-procedure::5-warnings",
+        "it-security-policy::8-exceptions-and-escalations",
+        "disciplinary-procedure::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **IT Security Policy** \u2014 *7. Incident Reporting*:\n\nIT Security Policy\n7. Incident Reporting\nThe section on incident reporting defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to incident reporting should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for incident reporting, the exception must include the reason, the duration, and any compensat"
+    },
+    {
+      "id": "qa005",
+      "question": "What is the routine record retention period?",
+      "gold_answer": "Routine HR and operational records are generally retained for 7 years unless a longer period is required.",
+      "expected_chunk_ids": [
+        "data-protection-policy::5-retention"
+      ],
+      "task": "qa",
+      "latency_ms": 7.03,
+      "cited_chunk_ids": [
+        "data-protection-policy::5-retention",
+        "disciplinary-procedure::7-record-retention",
+        "hr-policies-and-procedures::5-records-management",
+        "employee-handbook::7-acknowledgment",
+        "hr-policies-and-procedures::6-training",
+        "performance-management-policy::4-review-cycles",
+        "hr-policies-and-procedures::3-recruitment",
+        "acceptable-use-policy::7-enforcement"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Data Protection and Privacy Policy** \u2014 *5. Retention*:\n\nData Protection and Privacy Policy\n5. Retention\nThe section on retention defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to retention should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for retention, the exception must include the reason, the duration, and any compensating controls."
+    },
+    {
+      "id": "qa006",
+      "question": "What are the core hours for remote workers?",
+      "gold_answer": "Remote employees are expected to be reachable during core collaboration hours of 10:00 to 15:00 in their home time zone unless approved otherwise.",
+      "expected_chunk_ids": [
+        "remote-work-policy::5-core-hours"
+      ],
+      "task": "qa",
+      "latency_ms": 6.38,
+      "cited_chunk_ids": [
+        "remote-work-policy::5-core-hours",
+        "remote-work-policy::1-purpose-and-scope",
+        "remote-work-policy::6-security-for-remote-work",
+        "remote-work-policy::8-exceptions-and-escalations",
+        "remote-work-policy::4-workstation-standards",
+        "remote-work-policy::2-roles-and-responsibilities",
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
+        "remote-work-policy::9-document-control"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Remote Work Policy** \u2014 *5. Core Hours*:\n\nRemote Work Policy\n5. Core Hours\nThe section on core hours defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to core hours should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for core hours, the exception must include the reason, the duration, and any compensating controls.\n\nRemote employees are expe"
+    },
+    {
+      "id": "qa007",
+      "question": "How much annual leave is provided?",
+      "gold_answer": "Full-time employees accrue 20 working days of annual leave per year, prorated for partial years of service.",
+      "expected_chunk_ids": [
+        "leave-and-benefits-policy::3-annual-leave"
+      ],
+      "task": "qa",
+      "latency_ms": 6.8,
+      "cited_chunk_ids": [
+        "leave-and-benefits-policy::3-annual-leave",
+        "leave-and-benefits-policy::2-roles-and-responsibilities",
+        "leave-and-benefits-policy::9-document-control",
+        "leave-and-benefits-policy::4-sick-leave",
+        "leave-and-benefits-policy::6-public-holidays",
+        "leave-and-benefits-policy::5-parental-leave",
+        "leave-and-benefits-policy::1-purpose-and-scope",
+        "leave-and-benefits-policy::7-benefits-administration"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Leave and Benefits Policy** \u2014 *3. Annual Leave*:\n\nLeave and Benefits Policy\n3. Annual Leave\nThe section on annual leave defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to annual leave should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for annual leave, the exception must include the reason, the duration, and any compensating controls.\n\nF"
+    },
+    {
+      "id": "qa008",
+      "question": "What is required before posting a new role?",
+      "gold_answer": "A new role cannot be posted until the job requisition includes an approved budget code, job description, and hiring justification.",
+      "expected_chunk_ids": [
+        "recruitment-and-onboarding-procedure::3-job-requisition"
+      ],
+      "task": "qa",
+      "latency_ms": 7.13,
+      "cited_chunk_ids": [
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
+        "recruitment-and-onboarding-procedure::3-job-requisition",
+        "recruitment-and-onboarding-procedure::2-roles-and-responsibilities",
+        "recruitment-and-onboarding-procedure::8-exceptions-and-escalations",
+        "recruitment-and-onboarding-procedure::6-pre-boarding-checklist",
+        "hr-policies-and-procedures::4-onboarding",
+        "recruitment-and-onboarding-procedure::5-offer-approval",
+        "remote-work-policy::3-eligibility"
+      ],
+      "top1_hit": false,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Recruitment and Onboarding Procedure** \u2014 *7. 30-60-90 Onboarding*:\n\nRecruitment and Onboarding Procedure\n7. 30-60-90 Onboarding\nThe section on 30-60-90 onboarding defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to 30-60-90 onboarding should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for 30-60-90 onboarding, the exception must include th"
+    },
+    {
+      "id": "qa009",
+      "question": "When must the 30-60-90 day plan be completed?",
+      "gold_answer": "Managers must complete a documented 30-60-90 day plan for every new employee by the employee's first week.",
+      "expected_chunk_ids": [
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
+      ],
+      "task": "qa",
+      "latency_ms": 6.96,
+      "cited_chunk_ids": [
+        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
+        "employee-handbook::4-attendance",
+        "leave-and-benefits-policy::3-annual-leave",
+        "finance-and-expense-policy::7-reimbursement-timing",
+        "remote-work-policy::3-eligibility",
+        "remote-work-policy::5-core-hours",
+        "performance-management-policy::3-goal-setting",
+        "leave-and-benefits-policy::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Recruitment and Onboarding Procedure** \u2014 *7. 30-60-90 Onboarding*:\n\nRecruitment and Onboarding Procedure\n7. 30-60-90 Onboarding\nThe section on 30-60-90 onboarding defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to 30-60-90 onboarding should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for 30-60-90 onboarding, the exception must include th"
+    },
+    {
+      "id": "qa010",
+      "question": "When is executive risk committee review required?",
+      "gold_answer": "Any risk with an inherent score of 15 or higher must be reviewed by the executive risk committee.",
+      "expected_chunk_ids": [
+        "risk-management-policy::4-risk-scoring"
+      ],
+      "task": "qa",
+      "latency_ms": 6.94,
+      "cited_chunk_ids": [
+        "risk-management-policy::4-risk-scoring",
+        "risk-management-policy::6-review-cadence",
+        "risk-management-policy::2-roles-and-responsibilities",
+        "risk-management-policy::3-risk-register",
+        "risk-management-policy::7-escalation-thresholds",
+        "risk-management-policy::8-exceptions-and-escalations",
+        "finance-and-expense-policy::8-exceptions-and-escalations",
+        "health-and-safety-policy::8-exceptions-and-escalations"
+      ],
+      "top1_hit": true,
+      "citation_hit": true,
+      "grounded": true,
+      "answer_preview": "Based on **Risk Management Policy** \u2014 *4. Risk Scoring*:\n\nRisk Management Policy\n4. Risk Scoring\nThe section on risk scoring defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to risk scoring should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for risk scoring, the exception must include the reason, the duration, and any compensating controls.\n\nRisks a"
+    }
+  ]
+}

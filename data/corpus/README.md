@@ -1,22 +1,40 @@
-# Policy corpus for local + Render
+# RAG-Optimized Synthetic Policy Corpus
 
-Render and a fresh clone do **not** have access to paths on your laptop (e.g. `~/Downloads/...`).
-Put the **same** pack you use locally here so it can be **committed** and indexed during the Render build:
+This package contains a legally safe, fully synthetic company-policy corpus designed for retrieval-augmented generation experiments.
 
-```bash
-# From the repo root (adjust source path if needed)
-rsync -a --delete "${RAG_SOURCE:-$HOME/Downloads/rag_policy_corpus}/" "./data/corpus/"
-```
+## Design goals
+- Stable document slugs and section IDs
+- Heading-based chunk boundaries
+- Explicit metadata in source files
+- Cross-domain policy coverage
+- Gold query and QA benchmark sets
+- Multiple delivery formats: Markdown, HTML, PDF
 
-Required for `pip install` / ingest on Render:
+## Directory layout
+- `markdown/`: source documents with YAML front matter
+- `html/`: browser-friendly versions
+- `pdf/`: polished PDF renderings
+- `chunks/chunks.jsonl`: one record per retrieval chunk
+- `benchmarks/queries.jsonl`: retrieval benchmark queries
+- `benchmarks/qa_pairs.jsonl`: short-form answer benchmark set
+- `manifests/documents.csv`: document inventory
+- `manifests/chunks.csv`: flat chunk inventory
 
-- `data/corpus/chunks/chunks.jsonl`
+## Suggested indexing strategy
+Use each section as a base chunk. Preserve:
+- `chunk_id`
+- `doc_slug`
+- `section_heading`
+- `owner`
+- full section text
 
-Then:
+For higher recall, add:
+- title prefix
+- section heading prefix
+- sibling-section expansion at query time
 
-```bash
-git add data/corpus
-git commit -m "Add policy corpus for deployment"
-```
-
-*You can omit large PDF/HTML copies if you only rely on the JSONL; the app indexes `chunks/chunks.jsonl`.*
+## Corpus summary
+- Documents: 15
+- Chunks: 135
+- Effective date: 2026-04-20
+- Version: 3.0-rag

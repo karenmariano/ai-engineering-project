@@ -1,15 +1,21 @@
 # AI Tooling
 
-Document which AI tools were used, where they helped, and limitations observed.
-
 ## Tools Used
 
-- TBD
+- Codex was used to inspect the repository, compare it against the project rubric, clean generated files, initialize the project Git repository, and identify missing submission artifacts.
+- Codex helped implement and validate the reproducible evaluation workflow in `scripts/evaluate.py`.
+- Codex assisted with documentation updates for design choices, evaluation approach, setup, and repository hygiene.
+- AI assistance was also used for debugging environment issues such as virtual environment activation, Git root scoping, ignored files, and embedding model initialization.
 
 ## What Worked Well
 
-- TBD
+- Fast repo inspection made it easy to find rubric gaps, especially the placeholder design/evaluation and AI-tooling documents.
+- Automated evaluation generation helped turn benchmark files into concrete metrics: groundedness, citation accuracy, top-1 retrieval, and latency.
+- AI-assisted debugging caught an important benchmark mismatch where several expected chunk IDs were stale relative to the actual chunk manifest.
+- The assistant helped keep local-only files such as `.env`, `.venv`, Chroma indexes, caches, and `.DS_Store` out of the Git commit.
 
 ## What Did Not Work Well
 
-- TBD
+- Free LLM provider routes can be rate-limited, especially OpenRouter free models. The app handles this by falling back to extractive cited answers, but the demo should use a reliable model/key or explicitly show the fallback behavior.
+- SentenceTransformer initialization may perform Hugging Face metadata checks on first use. A fresh environment needs network access to download or verify the embedding model.
+- AI suggestions still required human review, especially for rubric interpretation and for confirming that generated documentation accurately reflected the working code.

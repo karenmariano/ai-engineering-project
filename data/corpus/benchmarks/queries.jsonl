@@ -1,0 +1,14 @@
+{"query_id": "q001", "query": "What is the notice requirement for being absent or late?", "relevant_chunk_ids": ["employee-handbook::4-attendance"]}
+{"query_id": "q002", "query": "How valuable can a non-cash gift be before it must be declined or disclosed?", "relevant_chunk_ids": ["code-of-conduct::5-gifts-and-hospitality"]}
+{"query_id": "q003", "query": "How quickly must security incidents be reported?", "relevant_chunk_ids": ["it-security-policy::7-incident-reporting"]}
+{"query_id": "q004", "query": "How long are routine HR and operational records retained?", "relevant_chunk_ids": ["data-protection-policy::5-retention"]}
+{"query_id": "q005", "query": "What is the target acknowledgment window for privacy requests?", "relevant_chunk_ids": ["data-protection-policy::6-data-subject-requests"]}
+{"query_id": "q006", "query": "What are the remote-work core collaboration hours?", "relevant_chunk_ids": ["remote-work-policy::5-core-hours"]}
+{"query_id": "q007", "query": "How much annual leave do full-time employees accrue?", "relevant_chunk_ids": ["leave-and-benefits-policy::3-annual-leave"]}
+{"query_id": "q008", "query": "What approvals are needed before a role can be posted?", "relevant_chunk_ids": ["recruitment-and-onboarding-procedure::3-job-requisition"]}
+{"query_id": "q009", "query": "When is a 30-60-90 day plan due?", "relevant_chunk_ids": ["recruitment-and-onboarding-procedure::7-30-60-90-onboarding"]}
+{"query_id": "q010", "query": "What rating triggers a structured review conversation and may lead to a PIP?", "relevant_chunk_ids": ["performance-management-policy::5-rating-definitions"]}
+{"query_id": "q011", "query": "How long does an employee have to submit a disciplinary appeal?", "relevant_chunk_ids": ["disciplinary-procedure::6-appeals"]}
+{"query_id": "q012", "query": "What is the cap for home internet reimbursement?", "relevant_chunk_ids": ["finance-and-expense-policy::3-expense-categories"]}
+{"query_id": "q013", "query": "When are three quotes normally required?", "relevant_chunk_ids": ["procurement-policy::4-three-quote-rule"]}
+{"query_id": "q014", "query": "At what inherent risk score is executive committee review required?", "relevant_chunk_ids": ["risk-management-policy::4-risk-scoring"]}

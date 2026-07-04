@@ -117,6 +117,7 @@ class RAGEngine:
             api_key=key,
             base_url=openai_base_url(),
             timeout=120.0,
+            max_retries=0,
         )
         system = (
             "You are a company policy assistant. Answer ONLY using the CONTEXT below. "
