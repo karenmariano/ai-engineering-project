@@ -1,0 +1,21 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# Dashboard → New → Blueprint → connect this Git repo.
+services:
+  - type: web
+    name: policy-rag
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt && test -f data/corpus/chunks/chunks.jsonl && python scripts/ingest.py --force || (echo "ERROR: Missing data/corpus/chunks/chunks.jsonl — copy your corpus into data/corpus/ (see data/corpus/README.md)." && exit 1)
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 300 "src.app:create_app()"
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.8"
+      # Secrets: set values only in the Render Dashboard (do not commit).
+      - key: LLM_API_KEY
+        sync: false
+      - key: OPENAI_BASE_URL
+        sync: false
+      - key: LLM_MODEL
+        sync: false
