@@ -1,4 +1,4 @@
-"""Flask app: / chat UI, /chat JSON API, /health, optional auto-index on /chat if empty Chroma."""
+"""Flask app: / chat UI, /chat JSON API, /health."""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ def ensure_indexed(rag: RAGEngine) -> bool:
         if rag.collection.count() > 0:
             return True
     except Exception:  # noqa: BLE001
-        log.debug("Chroma not ready: %s", traceback.format_exc())
+        log.debug("Retriever not ready: %s", traceback.format_exc())
     try:
         from src import ingest
 

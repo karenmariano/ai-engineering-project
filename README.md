@@ -1,8 +1,8 @@
 # AI Engineering Project
 
-RAG (Retrieval-Augmented Generation) app over a **pre-chunked** policy corpus. It indexes
-`chunks/chunks.jsonl` (section-level chunks) into Chroma, retrieves top `k` sections per
-question, and returns an answer with **citations and snippets** via a small Flask UI and JSON API.
+RAG (Retrieval-Augmented Generation) app over a **pre-chunked** policy corpus. It loads
+`chunks/chunks.jsonl` (section-level chunks), retrieves top `k` policy sections per question,
+and returns an LLM answer with **citations and snippets** via a small Flask UI and JSON API.
 
 ## Policy corpus (yours)
 
@@ -35,13 +35,13 @@ Copy `.env.example` to `.env` and adjust `RAG_CORPUS_DIR` as needed. If `python-
    pip install -r requirements.txt
    ```
 
-2. Build the Chroma index (first time, or after changing the corpus). From the repo root:
+2. Validate/load the corpus. From the repo root:
 
    ```bash
    python scripts/ingest.py
    ```
 
-   Equivalently: `python -m scripts.ingest`. Use `--force` to rebuild the index.
+   Equivalently: `python -m scripts.ingest`.
 
 3. Run the app:
 
@@ -69,7 +69,7 @@ LLM_MODEL=gemini-2.0-flash
 
 If the answer still says the LLM failed, read the new parenthetical (it includes the API error). Often that means a wrong `LLM_MODEL` / base URL, or a network issue—not a missing key.
 
-**Why the first request can be slow:** Chroma may initialize its local ONNX embedding model; the first Gemini/OpenRouter call can also be cold. Later requests are usually faster.
+**Why the first request can be slow:** the first Gemini/OpenRouter call can be cold. Later requests are usually faster.
 
 **If you see HTTP 429:** that is a **rate limit or quota** at whatever provider is in `OPENAI_BASE_URL` (Gemini, OpenRouter free tier, etc.), not a bug in this app. The UI will show an **extractive** answer. For **OpenRouter**, large free models (e.g. 70B) are often throttled; try a smaller `:free` model, wait, or check [OpenRouter](https://openrouter.ai/) usage. For **Gemini**, use AI Studio billing/quotas.
 
@@ -96,7 +96,8 @@ REQUIRE_LLM=false
 ## Project layout
 
 - `src/app.py` — Flask routes: `/`, `/chat`, `/health`
-- `src/ingest.py` — load `chunks/chunks.jsonl` into Chroma
+- `src/ingest.py` — validate/load `chunks/chunks.jsonl`
+- `src/lexical.py` — fast lexical retrieval over policy chunks
 - `src/rag.py` — retrieval + generation / extractive fallback
 - `src/config.py` — paths, `RAG_CORPUS_DIR`, retrieval thresholds
 - `scripts/ingest.py` — CLI for indexing
@@ -114,7 +115,7 @@ REQUIRE_LLM=false
 ## Reproducibility
 
 - `RAG_SEED` is reserved for any deterministic eval sampling you add (default `42`).
-- Vector index: `data/chroma/` (gitignored; rebuild with `python -m scripts.ingest`).
+- Retrieval uses `data/corpus/chunks/chunks.jsonl` directly by default, so Render does not need to download an embedding model at request time.
 
 ## Tests and CI
 
@@ -139,4 +140,4 @@ Latest results are committed in `evaluation/results.md`:
 - Groundedness: 100.0%
 - Citation accuracy: 100.0%
 - Top-1 retrieval hit rate: 87.5%
-- Latency p50/p95: 82.75 ms / 89.66 ms
+- Latency p50/p95: 0.62 ms / 0.94 ms

@@ -1,4 +1,4 @@
-"""CLI: index corpus into Chroma. Requires RAG_CORPUS_DIR or data/corpus symlink."""
+"""CLI: validate/index corpus chunks. Requires RAG_CORPUS_DIR or data/corpus."""
 
 from __future__ import annotations
 
@@ -18,15 +18,15 @@ from src import ingest as ingest_mod
 logging.basicConfig(level=logging.INFO)
 
 if __name__ == "__main__":
-    p = argparse.ArgumentParser(description="Index chunks/chunks.jsonl into Chroma")
+    p = argparse.ArgumentParser(description="Validate or index chunks/chunks.jsonl")
     p.add_argument(
         "--corpus",
         type=str,
         default=None,
         help="Override corpus root (default: RAG_CORPUS_DIR or data/corpus)",
     )
-    p.add_argument("--force", action="store_true", help="Rebuild the vector index from scratch")
+    p.add_argument("--force", action="store_true", help="Rebuild vector indexes when using a vector backend")
     args = p.parse_args()
     root = pathlib.Path(args.corpus).resolve() if args.corpus else get_corpus_dir()
     n = ingest_mod.ingest(corpus_dir=root, force=args.force)
-    print(f"Indexed {n} chunks from {root / 'chunks' / 'chunks.jsonl'}")
+    print(f"Loaded {n} chunks from {root / 'chunks' / 'chunks.jsonl'}")

@@ -17,7 +17,9 @@ services:
       - key: PYTHON_VERSION
         value: "3.11.8"
       - key: EMBEDDING_MODEL
-        value: default
+        value: lexical
+      - key: RETRIEVER_BACKEND
+        value: lexical
       - key: LLM_TIMEOUT_SECONDS
         value: "20"
       - key: REQUIRE_LLM

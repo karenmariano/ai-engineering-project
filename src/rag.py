@@ -1,4 +1,4 @@
-"""RAG: retrieve from Chroma, then generate or extractive answer with citations."""
+"""RAG: retrieve policy chunks, then generate or extractive answer with citations."""
 
 from __future__ import annotations
 
@@ -178,7 +178,7 @@ class RAGEngine:
         )
 
     def _rerank_citations(self, cits: list[Citation], question: str) -> list[Citation]:
-        """Tie-break vector search with light keyword overlap (e.g. PTO → leave policy)."""
+        """Tie-break retrieval with light keyword overlap (e.g. PTO -> leave policy)."""
         if len(cits) < 2:
             return cits
         q = question.lower()

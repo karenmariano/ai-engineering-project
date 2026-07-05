@@ -5,8 +5,8 @@
     "groundedness_pct": 100.0,
     "citation_accuracy_pct": 100.0,
     "top1_retrieval_pct": 87.5,
-    "latency_p50_ms": 82.75,
-    "latency_p95_ms": 89.66
+    "latency_p50_ms": 0.62,
+    "latency_p95_ms": 0.94
   },
   "results": [
     {
@@ -16,21 +16,17 @@
         "employee-handbook::4-attendance"
       ],
       "task": "retrieval",
-      "latency_ms": 418.59,
+      "latency_ms": 7.57,
       "cited_chunk_ids": [
-        "employee-handbook::4-attendance",
         "acceptable-use-policy::6-monitoring-notice",
-        "remote-work-policy::3-eligibility",
-        "employee-handbook::8-exceptions-and-escalations",
-        "leave-and-benefits-policy::8-exceptions-and-escalations",
-        "hr-policies-and-procedures::8-exceptions-and-escalations",
-        "disciplinary-procedure::8-exceptions-and-escalations",
-        "remote-work-policy::8-exceptions-and-escalations"
+        "employee-handbook::4-attendance",
+        "data-protection-policy::5-retention",
+        "finance-and-expense-policy::7-reimbursement-timing"
       ],
-      "top1_hit": true,
+      "top1_hit": false,
       "citation_hit": true,
       "grounded": true,
-      "answer_preview": "Based on **Employee Handbook** \u2014 *4. Attendance*:\n\nEmployee Handbook\n4. Attendance\nThe section on attendance defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to attendance should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for attendance, the exception must include the reason, the duration, and any compensating controls.\n\nEmployees who will be absen"
+      "answer_preview": "Based on **Acceptable Use Policy** \u2014 *6. Monitoring Notice*:\n\nAcceptable Use Policy\n6. Monitoring Notice\nThe section on monitoring notice defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to monitoring notice should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for monitoring notice, the exception must include the reason, the duration, and any compensa"
     },
     {
       "id": "q002",
@@ -39,16 +35,10 @@
         "code-of-conduct::5-gifts-and-hospitality"
       ],
       "task": "retrieval",
-      "latency_ms": 90.35,
+      "latency_ms": 0.68,
       "cited_chunk_ids": [
         "code-of-conduct::5-gifts-and-hospitality",
-        "procurement-policy::5-contract-review",
-        "procurement-policy::7-purchase-orders",
-        "finance-and-expense-policy::5-receipts",
-        "finance-and-expense-policy::6-corporate-cards",
-        "procurement-policy::8-exceptions-and-escalations",
-        "procurement-policy::4-three-quote-rule",
-        "finance-and-expense-policy::3-expense-categories"
+        "data-protection-policy::6-data-subject-requests"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -62,16 +52,16 @@
         "it-security-policy::7-incident-reporting"
       ],
       "task": "retrieval",
-      "latency_ms": 81.74,
+      "latency_ms": 0.63,
       "cited_chunk_ids": [
         "it-security-policy::7-incident-reporting",
-        "data-protection-policy::7-breach-response",
-        "it-security-policy::6-logging-and-monitoring",
+        "remote-work-policy::6-security-for-remote-work",
         "code-of-conduct::6-reporting-concerns",
-        "it-security-policy::8-exceptions-and-escalations",
-        "disciplinary-procedure::8-exceptions-and-escalations",
-        "data-protection-policy::8-exceptions-and-escalations",
-        "health-and-safety-policy::7-incident-review"
+        "acceptable-use-policy::3-approved-use",
+        "health-and-safety-policy::3-hazard-reporting",
+        "health-and-safety-policy::7-incident-review",
+        "it-security-policy::1-purpose-and-scope",
+        "it-security-policy::9-document-control"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -85,16 +75,16 @@
         "data-protection-policy::5-retention"
       ],
       "task": "retrieval",
-      "latency_ms": 82.35,
+      "latency_ms": 0.95,
       "cited_chunk_ids": [
         "data-protection-policy::5-retention",
+        "data-protection-policy::3-personal-data-categories",
+        "data-protection-policy::4-lawful-basis",
         "hr-policies-and-procedures::5-records-management",
-        "disciplinary-procedure::7-record-retention",
         "hr-policies-and-procedures::3-recruitment",
+        "hr-policies-and-procedures::4-onboarding",
         "hr-policies-and-procedures::6-training",
-        "leave-and-benefits-policy::7-benefits-administration",
-        "leave-and-benefits-policy::3-annual-leave",
-        "employee-handbook::7-acknowledgment"
+        "hr-policies-and-procedures::7-offboarding"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -108,16 +98,16 @@
         "data-protection-policy::6-data-subject-requests"
       ],
       "task": "retrieval",
-      "latency_ms": 84.31,
+      "latency_ms": 0.7,
       "cited_chunk_ids": [
         "data-protection-policy::7-breach-response",
-        "data-protection-policy::6-data-subject-requests",
         "employee-handbook::7-acknowledgment",
-        "data-protection-policy::1-purpose-and-scope",
-        "it-security-policy::7-incident-reporting",
-        "it-security-policy::3-identity-and-access",
-        "data-protection-policy::8-exceptions-and-escalations",
-        "it-security-policy::9-document-control"
+        "data-protection-policy::6-data-subject-requests",
+        "data-protection-policy::3-personal-data-categories",
+        "data-protection-policy::4-lawful-basis",
+        "data-protection-policy::5-retention",
+        "leave-and-benefits-policy::3-annual-leave",
+        "employee-handbook::3-employment-classifications"
       ],
       "top1_hit": false,
       "citation_hit": true,
@@ -131,16 +121,16 @@
         "remote-work-policy::5-core-hours"
       ],
       "task": "retrieval",
-      "latency_ms": 83.96,
+      "latency_ms": 0.53,
       "cited_chunk_ids": [
         "remote-work-policy::5-core-hours",
+        "acceptable-use-policy::3-approved-use",
         "remote-work-policy::1-purpose-and-scope",
-        "remote-work-policy::8-exceptions-and-escalations",
-        "remote-work-policy::6-security-for-remote-work",
-        "remote-work-policy::4-workstation-standards",
+        "performance-management-policy::5-rating-definitions",
+        "it-security-policy::7-incident-reporting",
+        "data-protection-policy::7-breach-response",
         "remote-work-policy::2-roles-and-responsibilities",
-        "remote-work-policy::3-eligibility",
-        "remote-work-policy::9-document-control"
+        "remote-work-policy::3-eligibility"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -154,16 +144,16 @@
         "leave-and-benefits-policy::3-annual-leave"
       ],
       "task": "retrieval",
-      "latency_ms": 82.21,
+      "latency_ms": 0.69,
       "cited_chunk_ids": [
         "leave-and-benefits-policy::3-annual-leave",
         "leave-and-benefits-policy::2-roles-and-responsibilities",
         "leave-and-benefits-policy::4-sick-leave",
-        "leave-and-benefits-policy::6-public-holidays",
+        "leave-and-benefits-policy::9-document-control",
+        "leave-and-benefits-policy::1-purpose-and-scope",
         "leave-and-benefits-policy::5-parental-leave",
-        "employee-handbook::9-document-control",
-        "leave-and-benefits-policy::7-benefits-administration",
-        "employee-handbook::6-travel-and-expenses"
+        "leave-and-benefits-policy::6-public-holidays",
+        "leave-and-benefits-policy::7-benefits-administration"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -177,16 +167,16 @@
         "recruitment-and-onboarding-procedure::3-job-requisition"
       ],
       "task": "retrieval",
-      "latency_ms": 83.08,
+      "latency_ms": 0.62,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::3-job-requisition",
-        "recruitment-and-onboarding-procedure::2-roles-and-responsibilities",
-        "acceptable-use-policy::2-roles-and-responsibilities",
-        "recruitment-and-onboarding-procedure::8-exceptions-and-escalations",
-        "recruitment-and-onboarding-procedure::5-offer-approval",
-        "hr-policies-and-procedures::4-onboarding",
-        "remote-work-policy::3-eligibility",
-        "recruitment-and-onboarding-procedure::6-pre-boarding-checklist"
+        "employee-handbook::2-roles-and-responsibilities",
+        "code-of-conduct::2-roles-and-responsibilities",
+        "hr-policies-and-procedures::2-roles-and-responsibilities",
+        "it-security-policy::2-roles-and-responsibilities",
+        "data-protection-policy::2-roles-and-responsibilities",
+        "remote-work-policy::2-roles-and-responsibilities",
+        "health-and-safety-policy::2-roles-and-responsibilities"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -200,16 +190,10 @@
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
       ],
       "task": "retrieval",
-      "latency_ms": 82.77,
+      "latency_ms": 0.66,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
-        "employee-handbook::4-attendance",
-        "leave-and-benefits-policy::3-annual-leave",
-        "leave-and-benefits-policy::4-sick-leave",
-        "finance-and-expense-policy::7-reimbursement-timing",
-        "remote-work-policy::3-eligibility",
-        "finance-and-expense-policy::3-expense-categories",
-        "finance-and-expense-policy::8-exceptions-and-escalations"
+        "performance-management-policy::5-rating-definitions"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -223,16 +207,16 @@
         "performance-management-policy::5-rating-definitions"
       ],
       "task": "retrieval",
-      "latency_ms": 83.16,
+      "latency_ms": 0.9,
       "cited_chunk_ids": [
         "performance-management-policy::5-rating-definitions",
         "risk-management-policy::6-review-cadence",
+        "procurement-policy::5-contract-review",
         "disciplinary-procedure::5-warnings",
-        "performance-management-policy::4-review-cycles",
-        "risk-management-policy::4-risk-scoring",
+        "acceptable-use-policy::5-software-installation",
         "health-and-safety-policy::7-incident-review",
-        "performance-management-policy::9-document-control",
-        "risk-management-policy::9-document-control"
+        "performance-management-policy::4-review-cycles",
+        "employee-handbook::4-attendance"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -246,16 +230,16 @@
         "disciplinary-procedure::6-appeals"
       ],
       "task": "retrieval",
-      "latency_ms": 82.13,
+      "latency_ms": 0.7,
       "cited_chunk_ids": [
         "disciplinary-procedure::6-appeals",
+        "disciplinary-procedure::1-purpose-and-scope",
         "disciplinary-procedure::2-roles-and-responsibilities",
-        "disciplinary-procedure::5-warnings",
+        "disciplinary-procedure::3-informal-resolution",
         "disciplinary-procedure::4-formal-investigation",
-        "disciplinary-procedure::8-exceptions-and-escalations",
         "disciplinary-procedure::9-document-control",
-        "code-of-conduct::7-non-retaliation",
-        "employee-handbook::8-exceptions-and-escalations"
+        "employee-handbook::1-purpose-and-scope",
+        "employee-handbook::9-document-control"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -269,16 +253,11 @@
         "finance-and-expense-policy::3-expense-categories"
       ],
       "task": "retrieval",
-      "latency_ms": 85.62,
+      "latency_ms": 0.61,
       "cited_chunk_ids": [
         "finance-and-expense-policy::3-expense-categories",
         "finance-and-expense-policy::7-reimbursement-timing",
-        "procurement-policy::4-three-quote-rule",
-        "finance-and-expense-policy::1-purpose-and-scope",
-        "finance-and-expense-policy::4-approval-thresholds",
-        "finance-and-expense-policy::5-receipts",
-        "employee-handbook::6-travel-and-expenses",
-        "finance-and-expense-policy::8-exceptions-and-escalations"
+        "remote-work-policy::5-core-hours"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -292,16 +271,16 @@
         "procurement-policy::4-three-quote-rule"
       ],
       "task": "retrieval",
-      "latency_ms": 80.33,
+      "latency_ms": 0.58,
       "cited_chunk_ids": [
         "procurement-policy::4-three-quote-rule",
-        "acceptable-use-policy::8-exceptions-and-escalations",
+        "disciplinary-procedure::5-warnings",
+        "data-protection-policy::5-retention",
+        "employee-handbook::8-exceptions-and-escalations",
+        "code-of-conduct::8-exceptions-and-escalations",
         "hr-policies-and-procedures::8-exceptions-and-escalations",
-        "health-and-safety-policy::8-exceptions-and-escalations",
-        "acceptable-use-policy::2-roles-and-responsibilities",
-        "acceptable-use-policy::1-purpose-and-scope",
-        "health-and-safety-policy::2-roles-and-responsibilities",
-        "acceptable-use-policy::9-document-control"
+        "it-security-policy::8-exceptions-and-escalations",
+        "data-protection-policy::8-exceptions-and-escalations"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -315,15 +294,15 @@
         "risk-management-policy::4-risk-scoring"
       ],
       "task": "retrieval",
-      "latency_ms": 80.69,
+      "latency_ms": 0.72,
       "cited_chunk_ids": [
         "risk-management-policy::4-risk-scoring",
-        "risk-management-policy::6-review-cadence",
-        "risk-management-policy::8-exceptions-and-escalations",
-        "risk-management-policy::2-roles-and-responsibilities",
-        "risk-management-policy::7-escalation-thresholds",
         "risk-management-policy::3-risk-register",
-        "performance-management-policy::5-rating-definitions",
+        "risk-management-policy::6-review-cadence",
+        "risk-management-policy::9-document-control",
+        "health-and-safety-policy::7-incident-review",
+        "performance-management-policy::4-review-cycles",
+        "procurement-policy::5-contract-review",
         "risk-management-policy::1-purpose-and-scope"
       ],
       "top1_hit": true,
@@ -339,21 +318,21 @@
         "employee-handbook::4-attendance"
       ],
       "task": "qa",
-      "latency_ms": 84.9,
+      "latency_ms": 0.61,
       "cited_chunk_ids": [
-        "leave-and-benefits-policy::4-sick-leave",
-        "leave-and-benefits-policy::3-annual-leave",
-        "leave-and-benefits-policy::8-exceptions-and-escalations",
-        "leave-and-benefits-policy::6-public-holidays",
         "employee-handbook::4-attendance",
-        "employee-handbook::6-travel-and-expenses",
-        "remote-work-policy::3-eligibility",
-        "hr-policies-and-procedures::8-exceptions-and-escalations"
+        "data-protection-policy::5-retention",
+        "acceptable-use-policy::6-monitoring-notice",
+        "employee-handbook::8-exceptions-and-escalations",
+        "code-of-conduct::8-exceptions-and-escalations",
+        "hr-policies-and-procedures::8-exceptions-and-escalations",
+        "it-security-policy::8-exceptions-and-escalations",
+        "data-protection-policy::8-exceptions-and-escalations"
       ],
-      "top1_hit": false,
+      "top1_hit": true,
       "citation_hit": true,
       "grounded": true,
-      "answer_preview": "Based on **Leave and Benefits Policy** \u2014 *4. Sick Leave*:\n\nLeave and Benefits Policy\n4. Sick Leave\nThe section on sick leave defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to sick leave should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for sick leave, the exception must include the reason, the duration, and any compensating controls.\n\nEmployees r"
+      "answer_preview": "Based on **Employee Handbook** \u2014 *4. Attendance*:\n\nEmployee Handbook\n4. Attendance\nThe section on attendance defines the standard rule, the approval path, and the records that must be retained.\n\nRequests related to attendance should be submitted through the official workflow rather than handled informally through chat or email alone.\n\nWhen a manager grants an exception for attendance, the exception must include the reason, the duration, and any compensating controls.\n\nEmployees who will be absen"
     },
     {
       "id": "qa002",
@@ -363,16 +342,11 @@
         "code-of-conduct::5-gifts-and-hospitality"
       ],
       "task": "qa",
-      "latency_ms": 84.64,
+      "latency_ms": 0.66,
       "cited_chunk_ids": [
         "code-of-conduct::5-gifts-and-hospitality",
         "procurement-policy::3-vendor-selection",
-        "finance-and-expense-policy::4-approval-thresholds",
-        "procurement-policy::5-contract-review",
-        "procurement-policy::4-three-quote-rule",
-        "procurement-policy::8-exceptions-and-escalations",
-        "procurement-policy::7-purchase-orders",
-        "procurement-policy::9-document-control"
+        "procurement-policy::5-contract-review"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -387,16 +361,9 @@
         "it-security-policy::5-password-and-mfa"
       ],
       "task": "qa",
-      "latency_ms": 82.19,
+      "latency_ms": 0.56,
       "cited_chunk_ids": [
-        "it-security-policy::5-password-and-mfa",
-        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
-        "it-security-policy::8-exceptions-and-escalations",
-        "data-protection-policy::8-exceptions-and-escalations",
-        "code-of-conduct::8-exceptions-and-escalations",
-        "acceptable-use-policy::8-exceptions-and-escalations",
-        "hr-policies-and-procedures::8-exceptions-and-escalations",
-        "employee-handbook::8-exceptions-and-escalations"
+        "it-security-policy::5-password-and-mfa"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -411,16 +378,16 @@
         "it-security-policy::7-incident-reporting"
       ],
       "task": "qa",
-      "latency_ms": 82.47,
+      "latency_ms": 0.68,
       "cited_chunk_ids": [
         "it-security-policy::7-incident-reporting",
-        "data-protection-policy::7-breach-response",
-        "it-security-policy::6-logging-and-monitoring",
+        "remote-work-policy::6-security-for-remote-work",
         "code-of-conduct::6-reporting-concerns",
+        "acceptable-use-policy::3-approved-use",
+        "health-and-safety-policy::3-hazard-reporting",
         "health-and-safety-policy::7-incident-review",
-        "disciplinary-procedure::5-warnings",
-        "it-security-policy::8-exceptions-and-escalations",
-        "disciplinary-procedure::8-exceptions-and-escalations"
+        "it-security-policy::1-purpose-and-scope",
+        "it-security-policy::9-document-control"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -435,16 +402,16 @@
         "data-protection-policy::5-retention"
       ],
       "task": "qa",
-      "latency_ms": 82.1,
+      "latency_ms": 0.58,
       "cited_chunk_ids": [
         "data-protection-policy::5-retention",
         "disciplinary-procedure::7-record-retention",
-        "hr-policies-and-procedures::5-records-management",
+        "employee-handbook::3-employment-classifications",
+        "employee-handbook::5-standards-of-conduct",
         "employee-handbook::7-acknowledgment",
-        "hr-policies-and-procedures::6-training",
-        "performance-management-policy::4-review-cycles",
-        "hr-policies-and-procedures::3-recruitment",
-        "acceptable-use-policy::7-enforcement"
+        "code-of-conduct::3-ethical-conduct",
+        "code-of-conduct::4-conflicts-of-interest",
+        "code-of-conduct::7-non-retaliation"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -459,15 +426,15 @@
         "remote-work-policy::5-core-hours"
       ],
       "task": "qa",
-      "latency_ms": 81.06,
+      "latency_ms": 0.58,
       "cited_chunk_ids": [
         "remote-work-policy::5-core-hours",
         "remote-work-policy::1-purpose-and-scope",
         "remote-work-policy::6-security-for-remote-work",
-        "remote-work-policy::8-exceptions-and-escalations",
+        "remote-work-policy::7-travel-while-remote",
+        "remote-work-policy::3-eligibility",
         "remote-work-policy::4-workstation-standards",
         "remote-work-policy::2-roles-and-responsibilities",
-        "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
         "remote-work-policy::9-document-control"
       ],
       "top1_hit": true,
@@ -483,15 +450,15 @@
         "leave-and-benefits-policy::3-annual-leave"
       ],
       "task": "qa",
-      "latency_ms": 82.86,
+      "latency_ms": 0.55,
       "cited_chunk_ids": [
         "leave-and-benefits-policy::3-annual-leave",
-        "leave-and-benefits-policy::2-roles-and-responsibilities",
         "leave-and-benefits-policy::9-document-control",
+        "leave-and-benefits-policy::2-roles-and-responsibilities",
         "leave-and-benefits-policy::4-sick-leave",
-        "leave-and-benefits-policy::6-public-holidays",
         "leave-and-benefits-policy::5-parental-leave",
         "leave-and-benefits-policy::1-purpose-and-scope",
+        "leave-and-benefits-policy::6-public-holidays",
         "leave-and-benefits-policy::7-benefits-administration"
       ],
       "top1_hit": true,
@@ -507,16 +474,16 @@
         "recruitment-and-onboarding-procedure::3-job-requisition"
       ],
       "task": "qa",
-      "latency_ms": 82.72,
+      "latency_ms": 0.61,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
         "recruitment-and-onboarding-procedure::3-job-requisition",
-        "recruitment-and-onboarding-procedure::2-roles-and-responsibilities",
-        "recruitment-and-onboarding-procedure::8-exceptions-and-escalations",
-        "recruitment-and-onboarding-procedure::6-pre-boarding-checklist",
-        "hr-policies-and-procedures::4-onboarding",
-        "recruitment-and-onboarding-procedure::5-offer-approval",
-        "remote-work-policy::3-eligibility"
+        "employee-handbook::2-roles-and-responsibilities",
+        "employee-handbook::8-exceptions-and-escalations",
+        "code-of-conduct::2-roles-and-responsibilities",
+        "code-of-conduct::8-exceptions-and-escalations",
+        "hr-policies-and-procedures::2-roles-and-responsibilities",
+        "hr-policies-and-procedures::8-exceptions-and-escalations"
       ],
       "top1_hit": false,
       "citation_hit": true,
@@ -531,16 +498,10 @@
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
       ],
       "task": "qa",
-      "latency_ms": 81.75,
+      "latency_ms": 0.54,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
-        "employee-handbook::4-attendance",
-        "leave-and-benefits-policy::3-annual-leave",
-        "finance-and-expense-policy::7-reimbursement-timing",
-        "remote-work-policy::3-eligibility",
-        "remote-work-policy::5-core-hours",
-        "performance-management-policy::3-goal-setting",
-        "leave-and-benefits-policy::8-exceptions-and-escalations"
+        "performance-management-policy::5-rating-definitions"
       ],
       "top1_hit": true,
       "citation_hit": true,
@@ -555,16 +516,16 @@
         "risk-management-policy::4-risk-scoring"
       ],
       "task": "qa",
-      "latency_ms": 85.72,
+      "latency_ms": 0.54,
       "cited_chunk_ids": [
         "risk-management-policy::4-risk-scoring",
-        "risk-management-policy::6-review-cadence",
-        "risk-management-policy::2-roles-and-responsibilities",
         "risk-management-policy::3-risk-register",
-        "risk-management-policy::7-escalation-thresholds",
-        "risk-management-policy::8-exceptions-and-escalations",
-        "finance-and-expense-policy::8-exceptions-and-escalations",
-        "health-and-safety-policy::8-exceptions-and-escalations"
+        "risk-management-policy::6-review-cadence",
+        "health-and-safety-policy::7-incident-review",
+        "performance-management-policy::4-review-cycles",
+        "risk-management-policy::9-document-control",
+        "procurement-policy::5-contract-review",
+        "risk-management-policy::1-purpose-and-scope"
       ],
       "top1_hit": true,
       "citation_hit": true,

@@ -1,4 +1,4 @@
-"""Configuration: corpus path, Chroma, retrieval, and optional LLM (OpenAI-compatible)."""
+"""Configuration: corpus path, retrieval, and OpenAI-compatible LLM."""
 
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ def get_chroma_dir() -> Path:
 
 # Retrieval
 RAG_TOP_K: int = int(os.environ.get("RAG_TOP_K", "8"))
-# Chroma l2 on normalized ST vectors; above this, treat as no good match
+# Distance gate used by vector backends; lexical retrieval returns distance 0.
 RAG_MAX_L2_DISTANCE: float = float(os.environ.get("RAG_MAX_L2_DISTANCE", "1.15"))
 
 # Generation: enough room for full policy sections (e.g. PTO rules, approval steps)
@@ -91,4 +91,8 @@ def llm_model() -> str:
 
 
 def embedding_model() -> str:
-    return (os.environ.get("EMBEDDING_MODEL") or "default").strip()
+    return (os.environ.get("EMBEDDING_MODEL") or "lexical").strip()
+
+
+def retriever_backend() -> str:
+    return os.environ.get("RETRIEVER_BACKEND", embedding_model()).strip().lower()
