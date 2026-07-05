@@ -81,4 +81,4 @@ def llm_model() -> str:
 
 
 def embedding_model() -> str:
-    return (os.environ.get("EMBEDDING_MODEL") or "all-MiniLM-L6-v2").strip()
+    return (os.environ.get("EMBEDDING_MODEL") or "default").strip()

@@ -5,8 +5,8 @@
     "groundedness_pct": 100.0,
     "citation_accuracy_pct": 100.0,
     "top1_retrieval_pct": 87.5,
-    "latency_p50_ms": 7.5,
-    "latency_p95_ms": 10.15
+    "latency_p50_ms": 82.26,
+    "latency_p95_ms": 84.74
   },
   "results": [
     {
@@ -16,7 +16,7 @@
         "employee-handbook::4-attendance"
       ],
       "task": "retrieval",
-      "latency_ms": 7511.73,
+      "latency_ms": 195.05,
       "cited_chunk_ids": [
         "employee-handbook::4-attendance",
         "acceptable-use-policy::6-monitoring-notice",
@@ -39,7 +39,7 @@
         "code-of-conduct::5-gifts-and-hospitality"
       ],
       "task": "retrieval",
-      "latency_ms": 10.39,
+      "latency_ms": 82.28,
       "cited_chunk_ids": [
         "code-of-conduct::5-gifts-and-hospitality",
         "procurement-policy::5-contract-review",
@@ -62,7 +62,7 @@
         "it-security-policy::7-incident-reporting"
       ],
       "task": "retrieval",
-      "latency_ms": 7.43,
+      "latency_ms": 83.0,
       "cited_chunk_ids": [
         "it-security-policy::7-incident-reporting",
         "data-protection-policy::7-breach-response",
@@ -85,7 +85,7 @@
         "data-protection-policy::5-retention"
       ],
       "task": "retrieval",
-      "latency_ms": 7.71,
+      "latency_ms": 82.44,
       "cited_chunk_ids": [
         "data-protection-policy::5-retention",
         "hr-policies-and-procedures::5-records-management",
@@ -108,7 +108,7 @@
         "data-protection-policy::6-data-subject-requests"
       ],
       "task": "retrieval",
-      "latency_ms": 7.99,
+      "latency_ms": 81.42,
       "cited_chunk_ids": [
         "data-protection-policy::7-breach-response",
         "data-protection-policy::6-data-subject-requests",
@@ -131,7 +131,7 @@
         "remote-work-policy::5-core-hours"
       ],
       "task": "retrieval",
-      "latency_ms": 7.82,
+      "latency_ms": 82.71,
       "cited_chunk_ids": [
         "remote-work-policy::5-core-hours",
         "remote-work-policy::1-purpose-and-scope",
@@ -154,7 +154,7 @@
         "leave-and-benefits-policy::3-annual-leave"
       ],
       "task": "retrieval",
-      "latency_ms": 7.68,
+      "latency_ms": 84.6,
       "cited_chunk_ids": [
         "leave-and-benefits-policy::3-annual-leave",
         "leave-and-benefits-policy::2-roles-and-responsibilities",
@@ -177,7 +177,7 @@
         "recruitment-and-onboarding-procedure::3-job-requisition"
       ],
       "task": "retrieval",
-      "latency_ms": 7.8,
+      "latency_ms": 84.45,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::3-job-requisition",
         "recruitment-and-onboarding-procedure::2-roles-and-responsibilities",
@@ -200,7 +200,7 @@
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
       ],
       "task": "retrieval",
-      "latency_ms": 6.86,
+      "latency_ms": 81.62,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
         "employee-handbook::4-attendance",
@@ -223,7 +223,7 @@
         "performance-management-policy::5-rating-definitions"
       ],
       "task": "retrieval",
-      "latency_ms": 8.06,
+      "latency_ms": 82.7,
       "cited_chunk_ids": [
         "performance-management-policy::5-rating-definitions",
         "risk-management-policy::6-review-cadence",
@@ -246,7 +246,7 @@
         "disciplinary-procedure::6-appeals"
       ],
       "task": "retrieval",
-      "latency_ms": 7.4,
+      "latency_ms": 81.39,
       "cited_chunk_ids": [
         "disciplinary-procedure::6-appeals",
         "disciplinary-procedure::2-roles-and-responsibilities",
@@ -269,7 +269,7 @@
         "finance-and-expense-policy::3-expense-categories"
       ],
       "task": "retrieval",
-      "latency_ms": 7.57,
+      "latency_ms": 81.17,
       "cited_chunk_ids": [
         "finance-and-expense-policy::3-expense-categories",
         "finance-and-expense-policy::7-reimbursement-timing",
@@ -292,7 +292,7 @@
         "procurement-policy::4-three-quote-rule"
       ],
       "task": "retrieval",
-      "latency_ms": 8.71,
+      "latency_ms": 81.96,
       "cited_chunk_ids": [
         "procurement-policy::4-three-quote-rule",
         "acceptable-use-policy::8-exceptions-and-escalations",
@@ -315,7 +315,7 @@
         "risk-management-policy::4-risk-scoring"
       ],
       "task": "retrieval",
-      "latency_ms": 8.06,
+      "latency_ms": 80.97,
       "cited_chunk_ids": [
         "risk-management-policy::4-risk-scoring",
         "risk-management-policy::6-review-cadence",
@@ -339,7 +339,7 @@
         "employee-handbook::4-attendance"
       ],
       "task": "qa",
-      "latency_ms": 8.76,
+      "latency_ms": 81.23,
       "cited_chunk_ids": [
         "leave-and-benefits-policy::4-sick-leave",
         "leave-and-benefits-policy::3-annual-leave",
@@ -363,7 +363,7 @@
         "code-of-conduct::5-gifts-and-hospitality"
       ],
       "task": "qa",
-      "latency_ms": 7.11,
+      "latency_ms": 82.46,
       "cited_chunk_ids": [
         "code-of-conduct::5-gifts-and-hospitality",
         "procurement-policy::3-vendor-selection",
@@ -387,7 +387,7 @@
         "it-security-policy::5-password-and-mfa"
       ],
       "task": "qa",
-      "latency_ms": 7.27,
+      "latency_ms": 83.51,
       "cited_chunk_ids": [
         "it-security-policy::5-password-and-mfa",
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
@@ -411,7 +411,7 @@
         "it-security-policy::7-incident-reporting"
       ],
       "task": "qa",
-      "latency_ms": 6.67,
+      "latency_ms": 82.24,
       "cited_chunk_ids": [
         "it-security-policy::7-incident-reporting",
         "data-protection-policy::7-breach-response",
@@ -435,7 +435,7 @@
         "data-protection-policy::5-retention"
       ],
       "task": "qa",
-      "latency_ms": 7.03,
+      "latency_ms": 81.15,
       "cited_chunk_ids": [
         "data-protection-policy::5-retention",
         "disciplinary-procedure::7-record-retention",
@@ -459,7 +459,7 @@
         "remote-work-policy::5-core-hours"
       ],
       "task": "qa",
-      "latency_ms": 6.38,
+      "latency_ms": 80.65,
       "cited_chunk_ids": [
         "remote-work-policy::5-core-hours",
         "remote-work-policy::1-purpose-and-scope",
@@ -483,7 +483,7 @@
         "leave-and-benefits-policy::3-annual-leave"
       ],
       "task": "qa",
-      "latency_ms": 6.8,
+      "latency_ms": 81.71,
       "cited_chunk_ids": [
         "leave-and-benefits-policy::3-annual-leave",
         "leave-and-benefits-policy::2-roles-and-responsibilities",
@@ -507,7 +507,7 @@
         "recruitment-and-onboarding-procedure::3-job-requisition"
       ],
       "task": "qa",
-      "latency_ms": 7.13,
+      "latency_ms": 84.76,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
         "recruitment-and-onboarding-procedure::3-job-requisition",
@@ -531,7 +531,7 @@
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding"
       ],
       "task": "qa",
-      "latency_ms": 6.96,
+      "latency_ms": 83.43,
       "cited_chunk_ids": [
         "recruitment-and-onboarding-procedure::7-30-60-90-onboarding",
         "employee-handbook::4-attendance",
@@ -555,7 +555,7 @@
         "risk-management-policy::4-risk-scoring"
       ],
       "task": "qa",
-      "latency_ms": 6.94,
+      "latency_ms": 81.76,
       "cited_chunk_ids": [
         "risk-management-policy::4-risk-scoring",
         "risk-management-policy::6-review-cadence",

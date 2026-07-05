@@ -10,7 +10,7 @@ The project uses a legally safe synthetic company policy corpus committed under 
 
 ### Embeddings and Vector Store
 
-Embeddings use `sentence-transformers/all-MiniLM-L6-v2`, a free local embedding model with a good speed/quality tradeoff for short policy sections. Chroma is used as the local persistent vector store because it works without managed infrastructure, persists indexes under `data/chroma`, and supports metadata-rich retrieval. The generated Chroma index is ignored by Git and rebuilt with:
+Embeddings use Chroma's default ONNX MiniLM embedding function, a free local embedding model with a good speed/quality tradeoff for short policy sections. This avoids a heavier Torch/SentenceTransformers dependency during Render builds while keeping semantic retrieval quality high. Chroma is used as the local persistent vector store because it works without managed infrastructure, persists indexes under `data/chroma`, and supports metadata-rich retrieval. The generated Chroma index is ignored by Git and rebuilt with:
 
 ```bash
 python scripts/ingest.py --force
@@ -78,7 +78,7 @@ Latest local run:
 - Groundedness: 100.0%
 - Citation accuracy: 100.0%
 - Top-1 retrieval hit rate: 87.5%
-- Latency p50: 7.5 ms
-- Latency p95: 10.15 ms
+- Latency p50: 82.26 ms
+- Latency p95: 84.74 ms
 
 See `evaluation/results.md` for the per-question table and `evaluation/results.json` for machine-readable output.

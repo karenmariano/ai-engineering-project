@@ -8,9 +8,9 @@ from pathlib import Path
 from typing import Any
 
 import chromadb
-from chromadb.utils import embedding_functions
 
 from src.config import embedding_model, get_chroma_dir, get_corpus_dir
+from src.embeddings import embedding_function
 
 log = logging.getLogger(__name__)
 
@@ -35,9 +35,7 @@ def load_chunks_jsonl(path: Path) -> list[dict[str, Any]]:
 
 def get_collection() -> Any:
     persist = str(get_chroma_dir())
-    ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name=embedding_model()
-    )
+    ef = embedding_function(embedding_model())
     client = chromadb.PersistentClient(path=persist)
     return client.get_or_create_collection(
         name=COLLECTION_NAME,
@@ -60,9 +58,7 @@ def ingest(corpus_dir: Path | None = None, force: bool = False) -> int:
         except Exception:  # noqa: BLE001
             pass
 
-    ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name=embedding_model()
-    )
+    ef = embedding_function(embedding_model())
     collection = client.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=ef,

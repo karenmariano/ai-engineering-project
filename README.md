@@ -69,7 +69,7 @@ LLM_MODEL=gemini-2.0-flash
 
 If the answer still says the LLM failed, read the new parenthetical (it includes the API error). Often that means a wrong `LLM_MODEL` / base URL, or a network issue—not a missing key.
 
-**Why the first request can be slow:** Chroma + SentenceTransformers may load the embedding model; the first Gemini call can be cold. Later requests are usually faster.
+**Why the first request can be slow:** Chroma may initialize its local ONNX embedding model; the first Gemini/OpenRouter call can also be cold. Later requests are usually faster.
 
 **If you see HTTP 429:** that is a **rate limit or quota** at whatever provider is in `OPENAI_BASE_URL` (Gemini, OpenRouter free tier, etc.), not a bug in this app. The UI will show an **extractive** answer. For **OpenRouter**, large free models (e.g. 70B) are often throttled; try a smaller `:free` model, wait, or check [OpenRouter](https://openrouter.ai/) usage. For **Gemini**, use AI Studio billing/quotas.
 
@@ -133,4 +133,4 @@ Latest results are committed in `evaluation/results.md`:
 - Groundedness: 100.0%
 - Citation accuracy: 100.0%
 - Top-1 retrieval hit rate: 87.5%
-- Latency p50/p95: 7.5 ms / 10.15 ms
+- Latency p50/p95: 82.26 ms / 84.74 ms
