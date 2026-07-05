@@ -28,6 +28,25 @@
     <script>
       const out = document.getElementById("out");
       const cits = document.getElementById("cits");
+      async function readResponse(response) {
+        const text = await response.text();
+        if (!text.trim()) {
+          return {
+            data: null,
+            display: `Empty response from server (HTTP ${response.status}). Check Render logs for the backend error.`,
+          };
+        }
+        try {
+          const data = JSON.parse(text);
+          return { data, display: JSON.stringify(data, null, 2) };
+        } catch {
+          const plain = text.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+          return {
+            data: null,
+            display: plain || `Non-JSON response from server (HTTP ${response.status}).`,
+          };
+        }
+      }
       document.getElementById("send").addEventListener("click", async () => {
         const question = document.getElementById("q").value.trim();
         if (!question) return;
@@ -42,9 +61,17 @@
             body: JSON.stringify({ question }),
             signal: controller.signal,
           });
-          const data = await r.json();
+          const parsed = await readResponse(r);
+          const data = parsed.data;
           if (!r.ok) {
-            out.textContent = JSON.stringify(data, null, 2);
+            out.textContent = parsed.display;
+            if (r.status >= 500) {
+              out.textContent += "\n\nThis is a server-side error. Check the latest Render logs for the Python traceback.";
+            }
+            return;
+          }
+          if (!data) {
+            out.textContent = parsed.display;
             return;
           }
           out.textContent = (data.answer || "");
