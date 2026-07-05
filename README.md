@@ -78,10 +78,10 @@ If the answer still says the LLM failed, read the new parenthetical (it includes
 ```bash
 LLM_API_KEY=sk-or-v1-...
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
-LLM_MODEL=<a real model from the model list, not "openrouter/free">
+LLM_MODEL=cohere/north-mini-code:free
 ```
 
-`LLM_MODEL` must be a concrete route, e.g. `google/gemma-2-9b-it:free` or `meta-llama/llama-3.2-3b-instruct:free` (see [OpenRouter models](https://openrouter.ai/models), filter by “free” if you like). A placeholder like `openrouter/free` will not work.
+`LLM_MODEL` must be a concrete route from [OpenRouter models](https://openrouter.ai/models), not a placeholder such as `openrouter/free`. Free routes change over time; if OpenRouter returns “No endpoints found”, pick a currently listed `:free` model and update the Render environment variable.
 
 **Security:** never commit `.env` or paste live keys into chat, issue trackers, or screen recordings. If a key is exposed, revoke it in the provider’s dashboard and create a new one.
 

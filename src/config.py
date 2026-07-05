@@ -80,12 +80,12 @@ def openai_base_url() -> str:
 
 
 def llm_model() -> str:
-    """OpenRouter model ids look like `google/gemma-2-9b-it:free`, not `openrouter/free`."""
+    """OpenRouter model ids look like `cohere/north-mini-code:free`, not `openrouter/free`."""
     m = (os.environ.get("LLM_MODEL") or "gpt-4o-mini").strip()
     if m.lower() in ("openrouter/free", "openrouter.free"):
         raise ValueError(
             "LLM_MODEL cannot be 'openrouter/free' — that is not a valid OpenRouter model. "
-            "Pick a model from https://openrouter.ai/models (e.g. google/gemma-2-9b-it:free)."
+            "Pick a model from https://openrouter.ai/models (e.g. cohere/north-mini-code:free)."
         )
     return m
 
