@@ -10,7 +10,7 @@ from typing import Any
 
 from flask import Flask, jsonify, render_template, request
 
-from src.config import llm_api_key, llm_model, require_llm
+from src.config import llm_api_key, llm_model, openai_base_url, require_llm
 from src.rag import RAGEngine
 
 log = logging.getLogger(__name__)
@@ -57,6 +57,7 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
                 "llm_required": require_llm(),
                 "llm_configured": bool(llm_api_key()),
                 "llm_model": llm_model() if llm_api_key() else None,
+                "llm_base_url": openai_base_url() if llm_api_key() else None,
             }
         )
 

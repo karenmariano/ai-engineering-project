@@ -76,7 +76,23 @@ def require_llm() -> bool:
 
 
 def openai_base_url() -> str:
-    return (os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
+    raw = (os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").strip()
+    if raw and not raw.startswith(("http://", "https://")):
+        raw = "https://" + raw
+    url = raw.rstrip("/")
+    # Users often paste the full endpoint; OpenAI's SDK appends this path itself.
+    suffix = "/chat/completions"
+    if url.endswith(suffix):
+        url = url[: -len(suffix)]
+    low = url.lower()
+    if low in ("https://openrouter.ai", "https://openrouter.ai/api"):
+        url = "https://openrouter.ai/api/v1"
+    if "generativelanguage.googleapis.com" in low and not low.endswith("/openai"):
+        if low.endswith("/v1beta") or low.endswith("/v1"):
+            url = url + "/openai"
+        elif "/v1beta/" not in low and "/v1/" not in low:
+            url = url + "/v1beta/openai"
+    return url
 
 
 def llm_model() -> str:
