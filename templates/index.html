@@ -33,23 +33,37 @@
         if (!question) return;
         out.textContent = "Loading…";
         cits.innerHTML = "";
-        const r = await fetch("/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question }),
-        });
-        const data = await r.json();
-        if (!r.ok) {
-          out.textContent = JSON.stringify(data, null, 2);
-          return;
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 45000);
+        try {
+          const r = await fetch("/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question }),
+            signal: controller.signal,
+          });
+          const data = await r.json();
+          if (!r.ok) {
+            out.textContent = JSON.stringify(data, null, 2);
+            return;
+          }
+          out.textContent = (data.answer || "");
+          if (data.notice) {
+            out.textContent += `\n\nNote: ${data.notice}`;
+          }
+          (data.citations || []).forEach((c) => {
+            const d = document.createElement("div");
+            d.className = "citation";
+            d.textContent = `${c.doc_title} — ${c.section_heading} (${c.chunk_id})`;
+            cits.appendChild(d);
+          });
+        } catch (err) {
+          out.textContent = err.name === "AbortError"
+            ? "The request timed out. The service may still be warming up; try again in a moment."
+            : `Request failed: ${err.message || err}`;
+        } finally {
+          clearTimeout(timer);
         }
-        out.textContent = (data.answer || "");
-        (data.citations || []).forEach((c) => {
-          const d = document.createElement("div");
-          d.className = "citation";
-          d.textContent = `${c.doc_title} — ${c.section_heading} (${c.chunk_id})`;
-          cits.appendChild(d);
-        });
       });
     </script>
   </body>

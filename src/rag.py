@@ -14,6 +14,7 @@ from src.config import (
     CITATION_SNIPPET_MAX_CHARS,
     EXTRACTIVE_MAX_CHARS,
     LLM_MAX_TOKENS,
+    LLM_TIMEOUT_SECONDS,
     RAG_MAX_ANSWER_CHARS,
     RAG_MAX_L2_DISTANCE,
     RAG_TOP_K,
@@ -116,7 +117,7 @@ class RAGEngine:
         client = OpenAI(
             api_key=key,
             base_url=openai_base_url(),
-            timeout=120.0,
+            timeout=LLM_TIMEOUT_SECONDS,
             max_retries=0,
         )
         system = (

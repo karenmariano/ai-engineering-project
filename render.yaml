@@ -18,6 +18,8 @@ services:
         value: "3.11.8"
       - key: EMBEDDING_MODEL
         value: default
+      - key: LLM_TIMEOUT_SECONDS
+        value: "20"
       # Secrets: set values only in the Render Dashboard (do not commit).
       - key: LLM_API_KEY
         sync: false
