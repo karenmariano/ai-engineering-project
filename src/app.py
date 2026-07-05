@@ -9,8 +9,9 @@ from pathlib import Path
 from typing import Any
 
 from flask import Flask, jsonify, render_template, request
+from openai import OpenAI
 
-from src.config import llm_api_key, llm_model, openai_base_url, require_llm
+from src.config import LLM_TIMEOUT_SECONDS, llm_api_key, llm_model, openai_base_url, require_llm
 from src.rag import RAGEngine
 
 log = logging.getLogger(__name__)
@@ -60,6 +61,62 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
                 "llm_base_url": openai_base_url() if llm_api_key() else None,
             }
         )
+
+    @app.get("/llm-check")
+    def llm_check() -> Any:
+        key = llm_api_key()
+        base_url = openai_base_url()
+        model = llm_model() if key else None
+        if not key:
+            return (
+                jsonify(
+                    {
+                        "ok": False,
+                        "error": "LLM_API_KEY or OPENAI_API_KEY is not configured.",
+                        "llm_required": require_llm(),
+                        "llm_configured": False,
+                        "llm_base_url": base_url,
+                    }
+                ),
+                503,
+            )
+        try:
+            client = OpenAI(
+                api_key=key,
+                base_url=base_url,
+                timeout=LLM_TIMEOUT_SECONDS,
+                max_retries=0,
+            )
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": "Reply with OK only."}],
+                max_tokens=8,
+                temperature=0,
+            )
+            return jsonify(
+                {
+                    "ok": True,
+                    "llm_configured": True,
+                    "llm_base_url": base_url,
+                    "llm_model": model,
+                    "response": (resp.choices[0].message.content or "").strip(),
+                }
+            )
+        except Exception as exc:  # noqa: BLE001
+            log.exception("LLM diagnostic check failed")
+            return (
+                jsonify(
+                    {
+                        "ok": False,
+                        "llm_configured": True,
+                        "llm_base_url": base_url,
+                        "llm_model": model,
+                        "error_type": type(exc).__name__,
+                        "error": str(exc)[:1000],
+                    }
+                ),
+                502,
+            )
 
     @app.post("/chat")
     def chat() -> Any:
