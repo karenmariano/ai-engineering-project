@@ -1,6 +1,6 @@
 # Deployed app
 
-Deployment is optional for this rubric. This repo includes `render.yaml` so it can be deployed to Render as a Blueprint after the GitHub repository is connected.
+This repo includes `render.yaml` so it can be deployed to Render as a Blueprint after the GitHub repository is connected.
 
 For a local demo:
 
@@ -12,4 +12,4 @@ python -m src.app
 - Web chat: http://127.0.0.1:5000/
 - Health check: http://127.0.0.1:5000/health
 
-If a public deployment is created, add the production URL here before final submission.
+If a public deployment is created, add the production URL here.

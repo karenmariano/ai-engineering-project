@@ -65,7 +65,7 @@ OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai
 LLM_MODEL=gemini-2.0-flash
 ```
 
-`python-dotenv` loads **`<project>/.env`** from the project root (see `src/config.py`) so the key is found even if your **shell’s current directory** is not the repo. **Restart the Flask process** after editing `.env`.
+`python-dotenv` loads **`.env` from the repository root** (see `src/config.py`) so the key is found even if the **shell’s current directory** is not the repo. **Restart the Flask process** after editing `.env`.
 
 If the answer still says the LLM failed, read the new parenthetical (it includes the API error). Often that means a wrong `LLM_MODEL` / base URL, or a network issue—not a missing key.
 
@@ -103,7 +103,7 @@ REQUIRE_LLM=false
 - `scripts/ingest.py` — CLI for indexing
 - `software-requirements-specification.md` — SRS
 - `design-and-evaluation.md` — design choices + evaluation metrics
-- `ai-tooling.md` — AI tool usage (submission)
+- `ai-tooling.md` — AI tool usage notes
 
 ## Answer length (defaults increased for full policy sections)
 

@@ -45,7 +45,7 @@ The API response includes `answer`, `citations`, `snippets`, `latency_ms`, and r
 
 ### CI/CD and Deployment
 
-GitHub Actions installs dependencies, imports the app, and runs `pytest` on push and pull request. `render.yaml` provides a Render blueprint that installs dependencies, verifies `data/corpus/chunks/chunks.jsonl`, and starts the app with Gunicorn. Deployment is optional for the rubric, but the repository is structured so a Render deployment can be created from the committed corpus.
+GitHub Actions installs dependencies, imports the app, and runs `pytest` on push and pull request. `render.yaml` provides a Render blueprint that installs dependencies, verifies `data/corpus/chunks/chunks.jsonl`, and starts the app with Gunicorn.
 
 ## Evaluation Approach
 

@@ -3,11 +3,11 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document defines the software requirements for an AI Engineering project: a Retrieval-Augmented Generation (RAG) web application that answers questions about company policies and procedures with citations.
+This document defines the software requirements for this AI Engineering project: a Retrieval-Augmented Generation (RAG) web application that answers questions about a synthetic company policy corpus with citations.
 
 ### 1.2 Scope
-The system ingests a policy corpus, indexes document chunks in a vector store, retrieves relevant context for user queries, and generates grounded answers via an LLM. It includes:
-- Document ingestion and indexing pipeline
+The system validates a pre-chunked policy corpus, retrieves relevant policy sections for user queries, and generates grounded answers via an LLM. It includes:
+- Corpus validation and retrieval pipeline
 - RAG inference pipeline with guardrails and citations
 - Web user interface and API endpoints
 - Health checks, reproducible environment setup, and CI/CD checks
@@ -25,18 +25,16 @@ Optional scope:
 - **p50/p95 latency**: 50th/95th percentile response time
 
 ### 1.4 References
-- AI Engineering Project Prompt and Rubric (Quantic)
 - Repository files: `README.md`, `design-and-evaluation.md`, `ai-tooling.md`, `requirements.txt`
 
 ## 2. Overall Description
 
 ### 2.1 Product Perspective
-The product is a standalone web application with batch/offline ingestion and online query serving. It uses a local or lightweight vector database and one or more external model APIs (embedding + generation), with environment-driven configuration.
+The product is a standalone web application with offline corpus validation and online query serving. It uses a committed pre-chunked corpus, a lightweight lexical retriever, and an external OpenAI-compatible chat completion API, with environment-driven configuration.
 
 ### 2.2 Product Functions
-- Parse and clean documents in PDF/HTML/Markdown/TXT formats
-- Chunk documents with overlap and metadata tracking
-- Generate embeddings and index vectors
+- Validate pre-chunked policy documents and metadata
+- Load section-level chunks from JSONL
 - Retrieve top-k relevant chunks for each query
 - Generate policy-grounded answers with required citations/snippets
 - Refuse out-of-scope questions
@@ -47,13 +45,13 @@ The product is a standalone web application with batch/offline ingestion and onl
 ### 2.3 User Classes
 - **End user**: asks policy questions through UI/API
 - **Developer/operator**: configures models, runs ingestion/evaluation, deploys app
-- **Evaluator/grader**: validates quality, citations, and reproducibility artifacts
+- **Reviewer**: validates quality, citations, and reproducibility artifacts
 
 ### 2.4 Operating Environment
 - OS: macOS/Linux/Windows (development)
 - Runtime: Python 3.x in isolated virtual environment
 - Dependencies: defined in `requirements.txt`
-- Data store: local/lightweight vector DB (e.g., Chroma) or optional managed store
+- Data store: committed JSONL policy chunks under `data/corpus`
 - Hosting (optional): Render/Railway free tier
 
 ### 2.5 Constraints
@@ -75,17 +73,17 @@ The product is a standalone web application with batch/offline ingestion and onl
 - **FR-3**: System shall provide `README.md` with setup and run instructions.
 - **FR-4**: System shall set fixed seeds where relevant (e.g., deterministic chunking/eval sampling).
 
-### 3.2 Ingestion and Indexing
-- **FR-5**: System shall ingest PDF, HTML, Markdown, and TXT files.
-- **FR-6**: System shall parse and clean extracted text before chunking.
-- **FR-7**: System shall chunk documents using a configurable strategy (heading- or token-based) with overlap.
-- **FR-8**: System shall generate embeddings for all chunks using configured embedding model/API.
-- **FR-9**: System shall persist vectors and chunk metadata to a vector store.
-- **FR-10**: System shall track source metadata (document ID/title/path and chunk location) for citation.
+### 3.2 Corpus Validation and Indexing
+- **FR-5**: System shall load the committed policy corpus from `data/corpus/chunks/chunks.jsonl`.
+- **FR-6**: System shall validate that each chunk includes required text and citation metadata.
+- **FR-7**: System shall use section-level chunks so answers map to human-readable policy sections.
+- **FR-8**: System shall initialize a lightweight retrieval index from the committed JSONL corpus.
+- **FR-9**: System shall avoid requiring embedding downloads during Render startup or first request.
+- **FR-10**: System shall track source metadata (document ID/title, section heading, and chunk ID) for citation.
 
 ### 3.3 Retrieval and Generation (RAG)
 - **FR-11**: System shall perform top-k retrieval for each user question (k configurable).
-- **FR-12**: System may support optional re-ranking before final context assembly.
+- **FR-12**: System shall score policy text, document titles, headings, phrases, and numeric terms before final context assembly.
 - **FR-13**: System shall construct prompts that inject retrieved chunks and source identifiers.
 - **FR-14**: System shall enforce refusal behavior for out-of-corpus queries.
 - **FR-15**: System shall enforce maximum answer length.
@@ -173,30 +171,24 @@ The product is a standalone web application with batch/offline ingestion and onl
 - Metadata linking chunks to source docs and locations
 - Evaluation dataset and results artifacts
 
-## 7. Acceptance Criteria (Rubric-Aligned)
+## 7. Acceptance Criteria
 
-To satisfy a high-quality submission:
+The completed system should include:
 - Working end-to-end RAG with mostly correct, grounded answers
 - Accurate citations linked to supporting passages
-- Functional ingestion/indexing over required corpus size
+- Functional corpus validation/retrieval over required corpus size
 - Web interface and required endpoints (`/`, `/chat`, `/health`)
 - CI workflow running on push/PR
 - Documented design choices and evaluation results (groundedness, citation accuracy, latency)
-- Clear demo walkthrough (features, architecture, evaluation, CI/CD evidence)
 
-## 8. Submission Artifacts Checklist
+## 8. Repository Artifacts Checklist
 
-Required repository artifacts:
+Repository artifacts:
 - `README.md` (setup + run)
 - `design-and-evaluation.md` or equivalent design/evaluation document
 - `ai-tooling.md` (tools used and effectiveness)
-- Source code, ingestion/indexing, RAG app, and evaluation scripts
+- Source code, corpus validation/retrieval, RAG app, and evaluation scripts
 - CI workflow configuration
 
 Optional repository artifacts:
 - Deployment link document (e.g., `deployed.md`)
-
-Final course submission package:
-- One PDF containing:
-  - link to accessible GitHub repository (shared with `quantic-grader`)
-  - link to 5-10 minute recorded demo video
