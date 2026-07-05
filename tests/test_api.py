@@ -9,7 +9,8 @@ from src.app import create_app
 
 
 @pytest.fixture
-def app():
+def app(monkeypatch):
+    monkeypatch.setenv("REQUIRE_LLM", "false")
     rag = MagicMock()
     rag.collection.count.return_value = 1
     rag.answer.return_value = {

@@ -10,6 +10,7 @@ from typing import Any
 
 from flask import Flask, jsonify, render_template, request
 
+from src.config import llm_api_key, llm_model, require_llm
 from src.rag import RAGEngine
 
 log = logging.getLogger(__name__)
@@ -53,6 +54,9 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
             {
                 "status": "ok",
                 "indexed_chunks": n,
+                "llm_required": require_llm(),
+                "llm_configured": bool(llm_api_key()),
+                "llm_model": llm_model() if llm_api_key() else None,
             }
         )
 
@@ -64,6 +68,21 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
         q = (data.get("question") or "").strip()
         if not q:
             return jsonify({"error": "Missing question"}), 400
+        if require_llm() and not llm_api_key():
+            return (
+                jsonify(
+                    {
+                        "error": (
+                            "LLM_API_KEY is required for chat. Set LLM_API_KEY in Render "
+                            "environment variables, plus OPENAI_BASE_URL and LLM_MODEL if "
+                            "using a non-OpenAI provider."
+                        ),
+                        "llm_required": True,
+                        "llm_configured": False,
+                    }
+                ),
+                503,
+            )
         if not ensure_indexed(engine):
             return (
                 jsonify(

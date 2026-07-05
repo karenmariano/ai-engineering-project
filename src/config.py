@@ -66,6 +66,15 @@ def llm_api_key() -> str:
     return (os.environ.get("OPENAI_API_KEY") or os.environ.get("LLM_API_KEY") or "").strip()
 
 
+def require_llm() -> bool:
+    return os.environ.get("REQUIRE_LLM", "true").strip().lower() not in (
+        "0",
+        "false",
+        "no",
+        "off",
+    )
+
+
 def openai_base_url() -> str:
     return (os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
 

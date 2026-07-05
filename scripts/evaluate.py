@@ -19,6 +19,7 @@ if str(ROOT) not in sys.path:
 # depending on a live chat model quota.
 os.environ["LLM_API_KEY"] = ""
 os.environ["OPENAI_API_KEY"] = ""
+os.environ["REQUIRE_LLM"] = "false"
 os.environ["RAG_CORPUS_DIR"] = str(ROOT / "data" / "corpus")
 
 from src.config import chunks_jsonl_path, project_root  # noqa: E402

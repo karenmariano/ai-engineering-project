@@ -53,9 +53,9 @@ Copy `.env.example` to `.env` and adjust `RAG_CORPUS_DIR` as needed. If `python-
    - **API:** `POST /chat` with JSON `{"question":"..."}`  
    - **Health:** `GET /health`  
 
-## Optional: LLM answers (OpenAI-compatible)
+## Required: LLM answers (OpenAI-compatible)
 
-If `OPENAI_API_KEY` or `LLM_API_KEY` is set, the app calls an OpenAI-compatible `chat.completions` API: `OPENAI_BASE_URL` (default `https://api.openai.com/v1` if unset) and `LLM_MODEL`. If no key is set, answers are **extractive** from the best-matching section (still cited).
+For the deployed chat app, `LLM_API_KEY` or `OPENAI_API_KEY` is required. The app calls an OpenAI-compatible `chat.completions` API: `OPENAI_BASE_URL` (default `https://api.openai.com/v1` if unset) and `LLM_MODEL`. If no key is set and `REQUIRE_LLM=true` (the Render default), `/chat` returns a clear 503 configuration error.
 
 **Google AI Studio (Gemini)** — create a key in [AI Studio](https://aistudio.google.com/apikey), then in `.env` (copy from `.env.example`):
 
@@ -85,7 +85,13 @@ LLM_MODEL=<a real model from the model list, not "openrouter/free">
 
 **Security:** never commit `.env` or paste live keys into chat, issue trackers, or screen recordings. If a key is exposed, revoke it in the provider’s dashboard and create a new one.
 
-The `/chat` JSON may include an optional **`notice`** (e.g. LLM error or extractive fallback); the web UI only renders **`answer`** so users don’t see that text.
+The `/chat` JSON may include an optional **`notice`** (e.g. LLM error or extractive fallback); the web UI renders it below the answer so users can tell when the provider fell back.
+
+For local development or reproducible evaluation without API quota, set:
+
+```bash
+REQUIRE_LLM=false
+```
 
 ## Project layout
 
@@ -133,4 +139,4 @@ Latest results are committed in `evaluation/results.md`:
 - Groundedness: 100.0%
 - Citation accuracy: 100.0%
 - Top-1 retrieval hit rate: 87.5%
-- Latency p50/p95: 82.26 ms / 84.74 ms
+- Latency p50/p95: 82.75 ms / 89.66 ms

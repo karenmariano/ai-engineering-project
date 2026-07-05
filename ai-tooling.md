@@ -16,6 +16,6 @@
 
 ## What Did Not Work Well
 
-- Free LLM provider routes can be rate-limited, especially OpenRouter free models. The app handles this by falling back to extractive cited answers, but the demo should use a reliable model/key or explicitly show the fallback behavior.
+- Free LLM provider routes can be rate-limited, especially OpenRouter free models. The deployed app requires `LLM_API_KEY`; if a configured provider fails after retrieval, the app falls back to extractive cited answers so the user still sees a grounded response.
 - The first Chroma default embedding initialization downloads a small ONNX model. After that, ingestion and retrieval run locally without a live LLM dependency.
 - AI suggestions still required human review, especially for rubric interpretation and for confirming that generated documentation accurately reflected the working code.

@@ -28,7 +28,8 @@ The RAG engine includes these guardrails:
 - Low-confidence retrievals are refused using an L2 distance threshold.
 - Answers are capped by `RAG_MAX_ANSWER_CHARS`.
 - Every successful answer returns citations and evidence snippets.
-- If the configured LLM provider is missing, rate-limited, or unavailable, the app returns an extractive answer from the best cited section instead of failing the request.
+- If the deployed app is missing `LLM_API_KEY`/`OPENAI_API_KEY` and `REQUIRE_LLM=true`, `/chat` returns a clear configuration error.
+- If a configured LLM provider is rate-limited or unavailable after retrieval, the app returns an extractive answer from the best cited section instead of failing the request.
 
 ### Web and API
 
@@ -53,7 +54,7 @@ The evaluation uses 24 benchmark questions from `data/corpus/benchmarks`:
 - 14 retrieval benchmark queries
 - 10 short-answer QA benchmark questions
 
-The evaluation disables live LLM calls so results are reproducible under free-tier quota limits. It evaluates the RAG system's retrieval, citation mapping, extractive answer grounding, and latency using the same Chroma index and `RAGEngine.answer()` path used by the app.
+The evaluation sets `REQUIRE_LLM=false` and disables live LLM calls so results are reproducible under free-tier quota limits. It evaluates the RAG system's retrieval, citation mapping, extractive answer grounding, and latency using the same Chroma index and `RAGEngine.answer()` path used by the app.
 
 Metrics:
 
@@ -78,7 +79,7 @@ Latest local run:
 - Groundedness: 100.0%
 - Citation accuracy: 100.0%
 - Top-1 retrieval hit rate: 87.5%
-- Latency p50: 82.26 ms
-- Latency p95: 84.74 ms
+- Latency p50: 82.75 ms
+- Latency p95: 89.66 ms
 
 See `evaluation/results.md` for the per-question table and `evaluation/results.json` for machine-readable output.

@@ -20,6 +20,8 @@ services:
         value: default
       - key: LLM_TIMEOUT_SECONDS
         value: "20"
+      - key: REQUIRE_LLM
+        value: "true"
       # Secrets: set values only in the Render Dashboard (do not commit).
       - key: LLM_API_KEY
         sync: false
