@@ -55,7 +55,7 @@ RAG_MAX_L2_DISTANCE: float = float(os.environ.get("RAG_MAX_L2_DISTANCE", "1.15")
 RAG_MAX_ANSWER_CHARS: int = int(os.environ.get("RAG_MAX_ANSWER_CHARS", "12000"))
 # LLM output budget (tokens); higher = more complete answers from the model
 LLM_MAX_TOKENS: int = int(os.environ.get("LLM_MAX_TOKENS", "2000"))
-LLM_TIMEOUT_SECONDS: float = float(os.environ.get("LLM_TIMEOUT_SECONDS", "20"))
+LLM_TIMEOUT_SECONDS: float = float(os.environ.get("LLM_TIMEOUT_SECONDS", "45"))
 # Extractive path: max chars from the best-matching chunk (sections are pre-chunked; avoid truncating mid-policy)
 EXTRACTIVE_MAX_CHARS: int = int(os.environ.get("EXTRACTIVE_MAX_CHARS", "10000"))
 # JSON citation snippets in /chat (evidence text per chunk in the response)

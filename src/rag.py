@@ -172,6 +172,14 @@ class RAGEngine:
         if "401" in s or "403" in s or ("invalid" in s_low and "key" in s_low):
             hint = "AI Studio" if is_google else ("OpenRouter" if is_openrouter else "your provider")
             return f"{self._short_err(exc)} Verify `LLM_API_KEY` and {hint} key settings."
+        if "connection error" in s_low or "api connection" in s_low:
+            provider = "OpenRouter" if is_openrouter else ("Google Gemini" if is_google else "the LLM provider")
+            return (
+                f"{self._short_err(exc)} Could not connect to {provider}. Verify "
+                "`OPENAI_BASE_URL`, `LLM_MODEL`, and that `LLM_API_KEY` is a valid active key. "
+                "Free provider routes can also be temporarily unavailable. Showing extractive text "
+                "from retrievals instead."
+            )
         return (
             f"{self._short_err(exc)} Showing extractive text from retrievals instead. "
             "If this persists, check `OPENAI_BASE_URL` and `LLM_MODEL`."
