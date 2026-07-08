@@ -1,0 +1,10 @@
+{
+  "include": ["src", "scripts", "tests", "app.py"],
+  "exclude": [".venv", ".git", ".pytest_cache", "data/corpus"],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": ["."]
+    }
+  ]
+}

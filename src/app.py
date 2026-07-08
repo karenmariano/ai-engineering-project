@@ -66,7 +66,6 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
     def llm_check() -> Any:
         key = llm_api_key()
         base_url = openai_base_url()
-        model = llm_model() if key else None
         if not key:
             return (
                 jsonify(
@@ -80,6 +79,7 @@ def create_app(rag: RAGEngine | None = None) -> Flask:
                 ),
                 503,
             )
+        model = llm_model()
         try:
             client = OpenAI(
                 api_key=key,
